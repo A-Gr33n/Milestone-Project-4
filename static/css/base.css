@@ -50,6 +50,11 @@ body {
 
 .text-black {
     color: #000 !important;
+   
+}
+
+.text-intro{
+    font-size:20px;
 }
 
 .border-black {
