@@ -1,6 +1,35 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
-<h1 class="display-4 text-success">It Works!</h1>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-7 col-md-6 my-auto">
+                <h1 class="display-4 logo-font text-black">
+                    Welcome to Fitness Galore, your ultimate destination for a healthier and happier you. At Fitness Galore, we're more than just a website;
+                     we're your dedicated partner on your journey to improved well-being. 
+                    Whether you're a seasoned fitness pro or just starting your path to a healthier lifestyle,
+                     we've got you covered. Our platform is brimming with expert advice, top-notch health products, customized nutrition plans,
+                     and a vibrant community of like-minded individuals ready to support and inspire you. 
+                     We believe that achieving your fitness goals should be an enjoyable and fulfilling experience,
+                     and that's exactly what we're here to provide. 
+                    Join us on this transformative adventure towards a fitter, 
+                    stronger, and more energetic you. Let's make fitness a way of life, together. Welcome to Fitness Galore where your wellness journey begins.
+                </h1>
+                <div class="my-5">
+                    <h4>
+                        <a href="" class="join-now-button btn btn-lg rounded-0 text-uppercase py-3">Join Now</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
