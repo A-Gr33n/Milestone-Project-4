@@ -1,0 +1,66 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "vitamins_supplements",
+        "friendly_name": "Vitamins & Supplements"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "workout equipment",
+        "friendly_name": "Workout Equipment"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "workout clothing",
+        "friendly_name": "Workout Clothing"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "deals",
+        "friendly_name": "Deals"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "sports nutrition",
+        "friendly_name": "Sports Nutrition"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "nutrtion plan 1",
+        "friendly_name": "Nutrtion Plan 1"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "nutrtion plan 2",
+        "friendly_name": "Nutrtion Plan 2"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "Nutrtion Plan 3",
+        "friendly_name": "Nutrtion Plan 3"
+      }
+    },
+   
