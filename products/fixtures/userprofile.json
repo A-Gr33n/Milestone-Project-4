@@ -1,0 +1,13 @@
+[
+   { "pk": 1,
+    "model": "products.userprofile",
+    "fields": { 
+    "user": 1,
+    "age": 25,
+    "gender": "male",
+    "fitness_goals": "Build muscle",
+    "preferred_workout_type": "Weightlifting",
+    "location": "City, Country"
+        }
+    }
+]

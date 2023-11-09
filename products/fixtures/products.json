@@ -4,8 +4,8 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
@@ -17,12 +17,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -30,12 +31,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -43,12 +45,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -56,12 +59,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": " ",
+        "product_name": "",
+        "product_description": " ",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -69,12 +73,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -82,12 +87,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "rating": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -95,12 +101,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -108,12 +115,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -121,12 +129,14 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" ,
+        "size": "" , 
+        "stock": ""
       }
     },
     {
@@ -134,12 +144,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -147,12 +158,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -160,12 +172,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -173,12 +186,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": " ",
+        "product_name": "",
+        "product_description": " ",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -186,12 +200,13 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price": ,
           "category": ,
           "image_url": "",
-          "image": ""
+          "image": "",
+          "stock": ""
         }
       },
 
@@ -200,12 +215,13 @@
       "model": "products.product",
       "fields": {
         "sku": "",
-        "name": "",
-        "description": "",
+        "product_name": "",
+        "product_description": "",
         "price": ,
         "category": ,
         "image_url": "",
-        "image": ""
+        "image": "" , 
+        "stock": ""
       }
     },
     {
@@ -213,12 +229,13 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price": ,
           "category": ,
           "image_url": "",
-          "image": ""
+          "image": "" , 
+          "stock": ""
         }
       },
       {
@@ -226,12 +243,13 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price":,
           "category": ,
           "image_url": "",
-          "image": ""
+          "image": "" , 
+          "stock": ""
         }
       },
       {
@@ -239,12 +257,13 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price": ,
           "category": ,
           "image_url": "",
-          "image": ""
+          "image": "" , 
+          "stock": ""
         }
       },
       {
@@ -252,12 +271,13 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price": ,
           "category": 5,
           "image_url": "",
-          "image": ""
+          "image": "" , 
+          "stock": ""
         }
       },
       {
@@ -265,12 +285,13 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price": ,
           "category": ,
           "image_url": "",
-          "image": ""
+          "image": "" , 
+          "stock": ""
         }
       },
       {
@@ -278,12 +299,13 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price": ,
           "category": ,
           "image_url": "",
-          "image": ""
+          "image": "" , 
+          "stock": ""
         }
       },
       {
@@ -291,12 +313,13 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price": ,
           "category": ,
           "image_url": "",
-          "image": ""
+          "image": "" ,
+          "stock": ""
         }
       },
       {
@@ -304,11 +327,12 @@
         "model": "products.product",
         "fields": {
           "sku": "",
-          "name": "",
-          "description": "",
+          "product_name": "",
+          "product_description": "",
           "price": ,
           "category": ,
           "image_url": "",
-          "image": ""
+          "image": "" , 
+          "stock": ""
         }
       },

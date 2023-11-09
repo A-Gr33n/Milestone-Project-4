@@ -1,0 +1,13 @@
+{
+    "pk": 1,
+    "model": "products.order",
+    "fields": {
+        "user": 1,
+        "product": 1, 
+        "ordered_date":2, 
+        "total_price": 199.98, 
+        "order_status":"123 Main St, City, Country" ,
+        "quantity" :  "Pending"
+    }
+  },
+ 
