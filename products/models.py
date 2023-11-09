@@ -22,6 +22,9 @@ class Product(models.Model):
     size=models.ForeignKey(Size,on_delete=models.CASCADE)
     stock = models.PositiveIntegerField()
 
+    def __str__(self):
+        return self.name
+
 class Order(models.Model):
     user = models.ForeginKey(User, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product, through='OrderItem')
@@ -29,16 +32,22 @@ class Order(models.Model):
     total_price = models.DecimalField(max_digits=10, decimal_place=2)
     order_status = models.CharField(max_length=20, default='Pending')
 
+    def __str__(self):
+        return f'Order #{self.pk} by {self.user.username}'
+
 class OrderItem(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=1)
     item_price = models.DecimalField(max_digits=10, decimal_places=2)
-
+    
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     shipping_address = models.TextField()
     phone_number = models.CharField(max_length=15)
+
+    def __str__(self):
+        return self.user.username
 
 class Review(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
@@ -49,14 +58,9 @@ class Review(models.Model):
     def __str__(self):
         return f'Review by {self.user.username} for {self.product.name}'
     
-    def __str__(self):
-        return self.user.username
+    
 
 
-    def __str__(self):
-        return f'Order #{self.pk} by {self.user.username}'
-
+  
      
-    def __str__(self):
-        return self.name
     
