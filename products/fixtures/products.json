@@ -3,55 +3,71 @@
       "pk": 1,
       "model": "products.product",
       "fields": {
-        "sku": "",
-        "product_name": "",
-        "product_description": "",
-        "price": ,
-        "category": ,
-        "image_url": "",
-        "image": ""
+        "sku": "1",
+        "product_name": "ama larsi women's sports bra workout tops for women cross back",
+        "product_description": "Women Supportive Sports Bra made with professional sports fabric. 
+        Nylon yarn gives you a sweat-wicking performance and keeps you dry during workouts. 
+        A higher percentage of spandex ultra-stretch yarn gives you four-way stretch and 
+        shape retention and gives you a compressive sensation.",
+        "price": "£25.99" ,
+        "category": "Workout Clothing",
+        "image_url": "https://images.app.goo.gl/jRUkYb6TE2DSd8Bm6",
+        "image": "ama larsi women's sports bra workout tops for women cross back.jpg" , 
+        "stock": "5"
       }
     },
     {
       "pk": 2,
       "model": "products.product",
       "fields": {
-        "sku": "",
-        "product_name": "",
-        "product_description": "",
-        "price": ,
-        "category": ,
-        "image_url": "",
-        "image": "" , 
-        "stock": ""
+        "sku": "2",
+        "product_name": "Basics Neoprene Dumbbell Pair",
+        "product_description": "Set of 2 dumbbells for resistance training; each dumbbell weighs 5 Kg
+        Easy-grip neoprene coating for a secure hold
+        Printed weight number on each end cap and colour-coded for quick identification
+        Hexagonal shape prevents dumbbells from rolling away
+        Ideal for fitness classes or at-home workout routines",
+        "price": "£30.99",
+        "category":"Workout Equipment" ,
+        "image_url": "https://m.media-amazon.com/images/I/91IgFt2UvwL._AC_SX425_.jpg",
+        "image": "basic pair of dumbbells.jpg" , 
+        "stock": "3"
       }
     },
     {
       "pk": 3,
       "model": "products.product",
       "fields": {
-        "sku": "",
-        "product_name": "",
-        "product_description": "",
-        "price": ,
-        "category": ,
-        "image_url": "",
-        "image": "" , 
-        "stock": ""
+        "sku": "3",
+        "product_name": "Cod Liver Oil",
+        "product_description": "Premium blend of essential fatty acid and Vitamins A & D.
+        Supports brain, vision and heart health
+        Supports the immune system
+        Derived from deep-sea, cold-water fish
+        Molecularly distilled to remove harmful contaminants.",
+        "price": "£8.95",
+        "category": "Vitamins & Supplements" ,
+        "image_url": "https://m.media-amazon.com/images/I/51xqR0cThnL._AC_UF894,1000_QL80_.jpg",
+        "image": "cod liver oil.jpg" , 
+        "stock": "7"
       }
     },
     {
       "pk": 4,
       "model": "products.product",
       "fields": {
-        "sku": "",
-        "product_name": "",
-        "product_description": "",
-        "price": ,
-        "category": ,
-        "image_url": "",
-        "image": "" , 
-        "stock": ""
+        "sku": "4",
+        "product_name": "Core Abodminal Muscle Fitness Trainer",
+        "product_description": " Made of durable material, it works perfectly for optimum performance and maximum safety and longevity.
+         Abdominal, back, arm, chest, leg and other muscles can be reasonably and effectively exercised, while eliminating excess fat in the abdomen. 
+        Perfect for people with lower back and neck problems or even fitness beginners.
+        Small size, easy to move, easy to disassemble and assemble.
+        Suitable for users of all ages and different training experience levels.",
+        "price": "19.99" ,
+        "category": "Workout Equipment",
+        "image_url": "https://m.media-amazon.com/images/I/71HgJPVEiXL._AC_SX679_.jpg",
+        "image": "core abdominal muscle fitness trainer.jpg" , 
+        "stock": "12"
       }
     },
     {
