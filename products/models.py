@@ -38,7 +38,7 @@ class Order(models.Model):
 
     
 class UserProfile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField('User', on_delete=models.CASCADE)
     age = models.IntegerField()
     gender = models.CharField(max_length=10)
     fitness_goals = models.CharField(max_length=255)
@@ -49,8 +49,8 @@ class UserProfile(models.Model):
         return self.user.username
 
 class Review(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    user = models.ForeignKey('User', on_delete=models.CASCADE)
+    product = models.ForeignKey('Product', on_delete=models.CASCADE)
     rating = models.FloatField()
     review_text = models.TextField()
     date = models.DateField()
