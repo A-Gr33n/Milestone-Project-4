@@ -3,13 +3,11 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "1",
-            "product_name": "ama larsi women's sports bra workout tops for women cross back",
-            "product_description": "Women Supportive Sports Bra made with professional sports fabric. 
-        Nylon yarn gives you a sweat-wicking performance and keeps you dry during workouts. 
-        A higher percentage of spandex ultra-stretch yarn gives you four-way stretch and 
-        shape retention and gives you a compressive sensation.","price": "£25.99","category": "Workout Clothing",
-            "image_url": "https://images.app.goo.gl/jRUkYb6TE2DSd8Bm6",
+            "name": "ama larsi women's sports bra workout tops for women cross back",
+            "description": "Women Supportive Sports Bra made with professional sports fabric. Nylon yarn gives you a sweat-wicking performance and keeps you dry during workouts. A higher percentage of spandex ultra-stretch yarn gives you four-way stretch and shape retention and gives you a compressive sensation.",
+            "price": "25.99",
+            "category": "3",
+            "image_url": "https: //images.app.goo.gl/jRUkYb6TE2DSd8Bm6",
             "image": "ama larsi women's sports bra workout tops for women cross back.jpg",
             "stock": "5"
         }
@@ -18,14 +16,11 @@
         "pk": 2,
         "model": "products.product",
         "fields": {
-            "sku": "2",
-            "product_name": "Basics Neoprene Dumbbell Pair",
-            "product_description": "Set of 2 dumbbells for resistance training; each dumbbell weighs 5 Kg
-        Easy-grip neoprene coating for a secure hold
-        Printed weight number on each end cap and colour-coded for quick identification
-        Hexagonal shape prevents dumbbells from rolling away
-        Ideal for fitness classes or at-home workout routines","price": "£30.99","category": "Workout Equipment",
-            "image_url": "https://m.media-amazon.com/images/I/91IgFt2UvwL._AC_SX425_.jpg",
+            "name": "Basics Neoprene Dumbbell Pair",
+            "description": "Set of 2 dumbbells for resistance training; each dumbbell weighs 5 Kg Easy-grip neoprene coating for a secure hold Printed weight number on each end cap and colour-coded for quick identification Hexagonal shape prevents dumbbells from rolling away Ideal for fitness classes or at-home workout routines",
+            "price": "30.99",
+            "category": "2",
+            "image_url": "https: //m.media-amazon.com/images/I/91IgFt2UvwL._AC_SX425_.jpg",
             "image": "basic pair of dumbbells.jpg",
             "stock": "3"
         }
@@ -34,14 +29,11 @@
         "pk": 3,
         "model": "products.product",
         "fields": {
-            "sku": "3",
-            "product_name": "Cod Liver Oil",
-            "product_description": "Premium blend of essential fatty acid and Vitamins A & D.
-        Supports brain, vision and heart health
-        Supports the immune system
-        Derived from deep-sea, cold-water fish
-        Molecularly distilled to remove harmful contaminants.","price": "£8.95","category": "Vitamins & Supplements",
-            "image_url": "https://m.media-amazon.com/images/I/51xqR0cThnL._AC_UF894,1000_QL80_.jpg",
+            "name": "Cod Liver Oil",
+            "description": "Premium blend of essential fatty acid and Vitamins A & D. Supports brain, vision and heart health Supports the immune system Derived from deep-sea, cold-water fish Molecularly distilled to remove harmful contaminants.",
+            "price": "8.95",
+            "category": "1",
+            "image_url": "https: //m.media-amazon.com/images/I/51xqR0cThnL._AC_UF894,1000_QL80_.jpg",
             "image": "cod liver oil.jpg",
             "stock": "7"
         }
@@ -50,14 +42,11 @@
         "pk": 4,
         "model": "products.product",
         "fields": {
-            "sku": "4",
-            "product_name": "Core Abodminal Muscle Fitness Trainer",
-            "product_description": " Made of durable material, it works perfectly for optimum performance and maximum safety and longevity.
-         Abdominal, back, arm, chest, leg and other muscles can be reasonably and effectively exercised, while eliminating excess fat in the abdomen. 
-        Perfect for people with lower back and neck problems or even fitness beginners.
-        Small size, easy to move, easy to disassemble and assemble.
-        Suitable for users of all ages and different training experience levels.","price": "19.99","category": "Workout Equipment",
-            "image_url": "https://m.media-amazon.com/images/I/71HgJPVEiXL._AC_SX679_.jpg",
+            "name": "Core Abodminal Muscle Fitness Trainer",
+            "description": " Made of durable material, it works perfectly for optimum performance and maximum safety and longevity. Abdominal, back, arm, chest, leg and other muscles can be reasonably and effectively exercised, while eliminating excess fat in the abdomen. Perfect for people with lower back and neck problems or even fitness beginners.Small size, easy to move, easy to disassemble and assemble.Suitable for users of all ages and different training experience levels.",
+            "price": "19.99",
+            "category": "2",
+            "image_url": "https: //m.media-amazon.com/images/I/71HgJPVEiXL._AC_SX679_.jpg",
             "image": "core abdominal muscle fitness trainer.jpg",
             "stock": "12"
         }
@@ -66,11 +55,10 @@
         "pk": 5,
         "model": "products.product",
         "fields": {
-            "sku": "5",
-            "product_name": "Domyos Women's Fitness Leggings 520 Black",
-            "product_description": "Stretch fabric to keep you as comfy as can be.Moisture management:Polyester helps them dry quickly during workoutsOpacity:Exercise with peace of mind!  ",
-            "price": "£23.99",
-            "category": "Workout Clothing",
+            "name": "Domyos Women's Fitness Leggings 520 Black",
+            "description": "Stretch fabric to keep you as comfy as can be.Moisture management:Polyester helps them dry quickly during workoutsOpacity:Exercise with peace of mind!  ",
+            "price": "23.99",
+            "category": "3",
             "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRknImrcyeCe_cgZbY4a-nf-r8VNoCRRUnNtiJESTndKG73Lzt70G0Dt7rTcWKUJnMt5xIfS7U1_ZjOJk5QJJp4p4GAMWTSbZIofzwn0ddHAqpkVIaj8F8e8Q&usqp=CAE",
             "image": "domyos women's fitness leggings 520 black.jpg",
             "stock": "8"
@@ -80,11 +68,10 @@
         "pk": 6,
         "model": "products.product",
         "fields": {
-            "sku": "6",
-            "product_name": "Domyos Women's Fitness Leggings 520-Deep Blue-Grey",
-            "product_description": "28% polyester, these leggings hug your figure and are never transparent, no matter how you move.",
+            "name": "Domyos Women's Fitness Leggings 520-Deep Blue-Grey",
+            "description": "28% polyester, these leggings hug your figure and are never transparent, no matter how you move.",
             "price": "£9.99",
-            "category": "Workout Clothing",
+            "category": "3",
             "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2sccv7AXBt2lbD_dpjN9eRO4thTrJGrDYsPU7d9ETttsSBe3PZjiljYORcnvvH3-qO2dWs8eJPFRoxUV3357lzYpxNl5avUdYxENO8iI&usqp=CAE",
             "image": "domyos women's fitness leggings 520-deep blue-grey.jpg",
             "stock": "16"
@@ -94,11 +81,11 @@
         "pk": 7,
         "model": "products.product",
         "fields": {
-            "sku": "7",
-            "product_name": "Fitness Tracker Smart Watch",
-            "product_description": "Fitness smart watch: Get a 15-in-1 smart watch fitness tracker.15-in-1 functions: Features include a heart rate monitor, call reminder, blood pressure detection, smart alarm clock and more.
-Activity tracker: Plus you can use the watch to track your activity goals by using the pedometer, exercise distance and calorie consumption functions. ","price": "£24.99","category": "Workout Clothing",
-            "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTxY04uLRhyiWzgTyw4b2u8iAMendbBdX1RJ_rD9gvlWdpKj6meDJy8C_jD4lrudHzt6MkuQ1a66c3Q2Ev8Px_aLgJVEgmaqNPr-zjdtEGHzcMY461cpOfr&usqp=CAE",
+            "name": "Fitness Tracker Smart Watch",
+            "description": "Fitness smart watch: Get a 15-in-1 smart watch fitness tracker.15-in-1 functions: Features include a heart rate monitor, call reminder, blood pressure detection, smart alarm clock and more. Activity tracker: Plus you can use the watch to track your activity goals by using the pedometer, exercise distance and calorie consumption functions. ",
+            "price": "24.99",
+            "category": "3",
+            "image_url": "https: //encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTxY04uLRhyiWzgTyw4b2u8iAMendbBdX1RJ_rD9gvlWdpKj6meDJy8C_jD4lrudHzt6MkuQ1a66c3Q2Ev8Px_aLgJVEgmaqNPr-zjdtEGHzcMY461cpOfr&usqp=CAE",
             "image": "fitness tracker smart watch.jpg",
             "stock": "13"
         }
@@ -107,11 +94,11 @@ Activity tracker: Plus you can use the watch to track your activity goals by usi
         "pk": 8,
         "model": "products.product",
         "fields": {
-            "sku": "8",
-            "product_name": "Gym Sports Suit Red Dot",
-            "product_description": "Men's Suit With Dots Hoodie Casual Sports And Sweatshirt Winter Men Suits & Sets Men Dress Coat
-     Great for Daily,Casual,I am sure you will like it!","price": "£34.99","category": "Workout Clothing",
-            "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTKlc64nIe-bt-wZqNQyO7UfzhkCBrkreI3NGKe9bT7shTr6OO5UbI4Vhk04j0TFmCHTylfCt3gRY_AZc40VolY0kQgXcIck5FsrATeiCQ",
+            "name": "Gym Sports Suit Red Dot",
+            "description": "Men's Suit With Dots Hoodie Casual Sports And Sweatshirt Winter Men Suits & Sets Men Dress Coat Great for Daily,Casual,I am sure you will like it!",
+            "price": "34.99",
+            "category": "3",
+            "image_url": "https: //encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTKlc64nIe-bt-wZqNQyO7UfzhkCBrkreI3NGKe9bT7shTr6OO5UbI4Vhk04j0TFmCHTylfCt3gRY_AZc40VolY0kQgXcIck5FsrATeiCQ",
             "image": "gym sports suit red dot.jpg",
             "stock": "12"
         }
@@ -120,11 +107,11 @@ Activity tracker: Plus you can use the watch to track your activity goals by usi
         "pk": 9,
         "model": "products.product",
         "fields": {
-            "sku": "9",
-            "product_name": "Hand Grip Strengthener Gym",
-            "product_description": "This is a kind of small fitness equipment to exercise wrist and arm strength.Strength range: 5 - 60kg. It is easily adjust the intensity according to your exercise intensity.
-Fit Anyone: The simple and convenient design makes it a perfect training accessory for everyone who wants to exercise, like teens, adults and even seniors who want to maintain their hand grip.","price": "£5.99","category": "Workout Equipment",
-            "image_url": "https://m.media-amazon.com/images/I/51yLEHM1J7L._AC_SX679_.jpg",
+            "name": "Hand Grip Strengthener Gym",
+            "description": "This is a kind of small fitness equipment to exercise wrist and arm strength.Strength range: 5 - 60kg.  It is easily adjust the intensity according to your exercise intensity.Fit Anyone: The simple and convenient design makes it a perfect training accessory for everyone who wants to exercise, like teens, adults and even seniors who want to maintain their hand grip.",
+            "price": "5.99",
+            "category": "2",
+            "image_url": "https: //m.media-amazon.com/images/I/51yLEHM1J7L._AC_SX679_.jpg",
             "image": "hand-grip-strengthener-gym.jpg",
             "stock": "17"
         }
@@ -133,25 +120,23 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 10,
         "model": "products.product",
         "fields": {
-            "sku": "10",
-            "product_name": "Huma Chia Energy Gel, Variety, 12 packets",
-            "product_description": "100% ALL-NATURAL SPORTS NUTRITION – Fruit Puree. Powdered Chia Seeds. Brown Rice Syrup. You don't need a PhD to pronounce the ingredients in Hüma products. Gluten Free, Dairy Free, Vegan Friendly.",
-            "price": "£27.99",
-            "category": "Sport Nutrition",
+            "name": "Huma Chia Energy Gel, Variety, 12 packets",
+            "description": "100% ALL-NATURAL SPORTS NUTRITION  Fruit Puree. Powdered Chia Seeds. Brown Rice Syrup. You don't need a PhD to pronounce the ingredients in Hüma products. Gluten Free, Dairy Free, Vegan Friendly.",
+            "price": "27.99",
+            "category": "4",
             "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQjEYuMbLD3PGRI8cYVR7FZ4kj5-px_rR_xg-fZhxBtVJxAZGEzdSBceTrgA4D1UqmWRBdlokJBq3T9cLfJYrIdCfh6WnZo20_S4EQ1wkxXASbChN2UgYqm",
             "image": "huma chia energy gel, variety, 12 packets.jpg",
-            "stock": "20",
+            "stock": "20"
         }
     },
     {
         "pk": 11,
         "model": "products.product",
         "fields": {
-            "sku": "11",
-            "product_name": "Lions Abidominal Abs Cruncher Exercise Roller",
-            "product_description": "Covered with soft foam, handles provide a comfortable touch, so as to bring an excellent fitness experience. Additionally, the cushioning headrest can reduce strain and support your head, helping you to form a correct exercise posture, so you can focus on training the muscles of the abdomen and legs. The roller exerciser offers multiple training options for diverse muscle groups, such as leg raise, push-ups, crunches, stretches, allowing you to train your back, shoulders, arms, chest, and other parts of your body effectively. This Abdominal trainer is aimed to exercise your muscles in all directions.",
-            "price": "£24.95",
-            "category": "Workout Equipment",
+            "name": "Lions Abidominal Abs Cruncher Exercise Roller",
+            "description": "Covered with soft foam, handles provide a comfortable touch, so as to bring an excellent fitness experience. Additionally, the cushioning headrest can reduce strain and support your head, helping you to form a correct exercise posture, so you can focus on training the muscles of the abdomen and legs. The roller exerciser offers multiple training options for diverse muscle groups, such as leg raise, push-ups, crunches, stretches, allowing you to train your back, shoulders, arms, chest, and other parts of your body effectively. This Abdominal trainer is aimed to exercise your muscles in all directions.",
+            "price": "24.95",
+            "category": "2",
             "image_url": "https://m.media-amazon.com/images/I/71HgJPVEiXL._AC_SX679_.jpg",
             "image": "lions abdominal abs cruncher excercise roller.jpg",
             "stock": "15"
@@ -161,11 +146,10 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 12,
         "model": "products.product",
         "fields": {
-            "sku": "12",
-            "product_name": "Magnesium Tablets",
-            "product_description": "Magnesium helps to regulate calcium transport and absorption. By stimulating the secretion of calcitonin, it aids the influx of calcium into bone and promotes optimal bone mineralization. Along with ATP, magnesium supports cellular energy metabolism. It also supports nerve and muscle function. This formulation provides magnesium citrate, a highly absorbable form of this important mineral.*",
-            "price": "£13.99",
-            "category": "Vitamins & Supplements",
+            "name": "Magnesium Tablets",
+            "description": "Magnesium helps to regulate calcium transport and absorption. By stimulating the secretion of calcitonin, it aids the influx of calcium into bone and promotes optimal bone mineralization. Along with ATP, magnesium supports cellular energy metabolism. It also supports nerve and muscle function. This formulation provides magnesium citrate, a highly absorbable form of this important mineral.*",
+            "price": "13.99",
+            "category": "1",
             "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT0BxmixMdiVTZ0L-msJvD5rX-18Xw8vNpLSokCP_l7FWVbhpoM4wqhs4jOrNMM2Bvh7NkWA4Xf5TK_Ys-UKD637sb1ecNxsnFNzC-SgAmP0w6NM0OwHvX-hA",
             "image": "magnesium tablets.jpg",
             "stock": "24"
@@ -175,11 +159,10 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 13,
         "model": "products.product",
         "fields": {
-            "sku": "13",
-            "product_name": "MEETYOO mens compression shirt.jpg",
-            "product_description": "The long sleeve t shirt is designed with high elastic fabric offers excellent comfort and full range of movement to stretch your muscle. The sports t-shirt with super elasticity provide maximum balance between freedom of movement and muscles, keep you comfortable. The running top mens feature breathable and wicking polyester fabric which will absorb sweat from exercise instantly, stay away from unpleasant smells to keep you dry and cozy.",
-            "price": "£12.98",
-            "category": "Workout Clothing",
+            "name": "MEETYOO mens compression shirt.jpg",
+            "description": "The long sleeve t shirt is designed with high elastic fabric offers excellent comfort and full range of movement to stretch your muscle. The sports t-shirt with super elasticity provide maximum balance between freedom of movement and muscles, keep you comfortable. The running top mens feature breathable and wicking polyester fabric which will absorb sweat from exercise instantly, stay away from unpleasant smells to keep you dry and cozy.",
+            "price": "12.98",
+            "category": "3",
             "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ1sfniPskMeVrqzO1-GvYz9B1UTev5uRZNHMTf7EjDvVczw36JtQqlvg8clwVizNUYPHyMdTCuAj-NvIC5GmNz9wcZlbORWQ_NyxdxVtc&usqp=CAE",
             "image": "MEETYOO mens compression shirt.jpg",
             "stock": "27"
@@ -189,11 +172,10 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 14,
         "model": "products.product",
         "fields": {
-            "sku": "14",
-            "product_name": "Muscle King Nutrition Whey Protein 2.27kg",
-            "product_description": " Muscle King Nutritions Whey is a great tasting top quality whey powder with an extensive range of amino acids. ",
-            "price": "£45.95",
-            "category": "Sport Nutrition",
+            "name": "Muscle King Nutrition Whey Protein 2.27kg",
+            "description": " Muscle King Nutritions Whey is a great tasting top quality whey powder with an extensive range of amino acids. ",
+            "price": "45.95",
+            "category": "4",
             "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSy1JMqNtOb3AF0AAy1HzTEOpSDXK75dUzX4JaOiI0KFAMX8mWAx0YnrTu4odi3On10fgryC5Q2aQfcyb35TRWqGBWbr_NAkoW3PqAR24fr8LLpn8OFmB3YpQ",
             "image": "muscle king nutrition whey protein 2.27kg, strawberry.jpg",
             "stock": "19"
@@ -203,11 +185,10 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 15,
         "model": "products.product",
         "fields": {
-            "sku": "15",
-            "product_name": "Nutrisport Weight Gain Vanilla 1.kg",
-            "product_description": "Highest quality milk protein and complex carbohydrate, plus 9g of Creatine and 18g of Branched Chain Amino Acids per 300g daily serving. Ideal for those who have a fast metabolism, lean physique, and find it difficult to bulk up with their normal calorie intake. To gain weight it is advisable to increase the number of meals per day. You can do this by taking Weight Gain between your normal meals, with snacks, and before bedtime.",
-            "price": "£15.99",
-            "category": "Vitamins & Supplements",
+            "name": "Nutrisport Weight Gain Vanilla 1.kg",
+            "description": "Highest quality milk protein and complex carbohydrate, plus 9g of Creatine and 18g of Branched Chain Amino Acids per 300g daily serving. Ideal for those who have a fast metabolism, lean physique, and find it difficult to bulk up with their normal calorie intake. To gain weight it is advisable to increase the number of meals per day. You can do this by taking Weight Gain between your normal meals, with snacks, and before bedtime.",
+            "price": "15.99",
+            "category": "1",
             "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTiEb99D9jpQPHolgwBtUGXPs0Ztmmep32SVW_2Sf2ozXAncZ3bC22e8X6TTQWfn6uD-7OnOpwUALCCARiYwlpTSnH3R3auFETxakwUUX-ssdoqZCnOtKaU&usqp=CAE",
             "image": "nutrisport weight gain vanilla 1.4kg.jpg",
             "stock": "23"
@@ -217,11 +198,10 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 16,
         "model": "products.product",
         "fields": {
-            "sku": "16",
-            "product_name": "Opti Silver Nutrition Energy Drink Orange 20x4g Orange",
-            "product_description": "OTE Sports Hydro should be used when hydration without the need for extra calories (energy) is the most important factor. Each tablet is naturally flavoured light refreshing and contains the important electrolytes sodium potassium magnesium and Caffeine (from Guarana).With only 8 kcal per tablet OTE Sports Hydro has been developed for use with most sports or physical activity where maintaining hydration status is important to maintaining performance. Ideal for use during low intensity exercise when you are exercising in hot or humid conditions or working out indoors. OTE Sports Hydro with Caffeine can also be used pre-exercise to give you that extra boost of mental stimulation.It is important to remember that if you are exercising for 60 minutes or more as well as remaining hydrated it is recommended to supplement 40-90g of carbohydrate per hour of exercise to maintain blood glucose levels. This will help you to maintain enjoy or improve the quality of your exercise.",
-            "price": "£7.99",
-            "category": "Sport Nutrition",
+            "name": "Opti Silver Nutrition Energy Drink Orange 20x4g Orange",
+            "description": "OTE Sports Hydro should be used when hydration without the need for extra calories (energy) is the most important factor. Each tablet is naturally flavoured light refreshing and contains the important electrolytes sodium potassium magnesium and Caffeine (from Guarana).With only 8 kcal per tablet OTE Sports Hydro has been developed for use with most sports or physical activity where maintaining hydration status is important to maintaining performance. Ideal for use during low intensity exercise when you are exercising in hot or humid conditions or working out indoors. OTE Sports Hydro with Caffeine can also be used pre-exercise to give you that extra boost of mental stimulation.It is important to remember that if you are exercising for 60 minutes or more as well as remaining hydrated it is recommended to supplement 40-90g of carbohydrate per hour of exercise to maintain blood glucose levels. This will help you to maintain enjoy or improve the quality of your exercise.",
+            "price": "7.99",
+            "category": "4",
             "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ8HbhS-KXB12dspt0GtDPHrbzxiKG7B7eZlH1ZpGlwheZns5JZCjS7Q5lL5fidzQDyJrcf8WpqcEIcIjrpy0twbqBTEjgabjYjuh2Lo5vewtMFiY8SecOgbw&usqp=CAE",
             "image": "ote sports nutrition energy drink orange 20x4g orange.jpg",
             "stock": "9"
@@ -231,11 +211,10 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 17,
         "model": "products.product",
         "fields": {
-            "sku": "17",
-            "product_name": "Opti Silver Gym Ball",
-            "product_description": "Work on strengthening and toning your core muscles with your own Opti Silver Gym Ball. It is perfect for working out at the gym or at home and you can perform a variety of different exercises to improve your body and reach your fitness goals. So whether you're working out with weights or not you can have a great workout with the help of a gym ball. Pump included. 55cm diameter gym ball. Helps develop overall body muscle, balance and co-ordination. Anti burst and pump included: a great exercise alternative for any age and fitness level and ideal for yoga exercises. NOTE - not suggested for use in pregnancy. Maximum user weight 125kg (19st 10lb).",
-            "price": "£8.99",
-            "category": "Sport Nutrition",
+            "name": "Opti Silver Gym Ball",
+            "description": "Work on strengthening and toning your core muscles with your own Opti Silver Gym Ball. It is perfect for working out at the gym or at home and you can perform a variety of different exercises to improve your body and reach your fitness goals. So whether you're working out with weights or not you can have a great workout with the help of a gym ball. Pump included. 55cm diameter gym ball. Helps develop overall body muscle, balance and co-ordination. Anti burst and pump included: a great exercise alternative for any age and fitness level and ideal for yoga exercises. NOTE - not suggested for use in pregnancy. Maximum user weight 125kg (19st 10lb).",
+            "price": "8.99",
+            "category": "4",
             "image_url": "https://media.4rgos.it/i/Argos/5532195_R_Z001A?w=1500&h=880&qlt=70&fmt=webp",
             "image": "opti silver gym ball.jpg",
             "stock": "18"
@@ -245,11 +224,11 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 18,
         "model": "products.product",
         "fields": {
-            "sku": "18",
-            "product_name": "Physioroom Resistance Tube Heavy Pack of 2",
-            "product_description": "The foam handles easily attach and detach to allow you to set the resistance level to suit you.
-          They are made from premium rubber latex, meaning they can withstand strong extension during vigorous workouts.","price": "£15.29","category": "Workout Equipment",
-            "image_url": "https://m.media-amazon.com/images/I/412GVSlKshL._AC_SX425_.jpg",
+            "name": "Physioroom Resistance Tube Heavy Pack of 2",
+            "description": "The foam handles easily attach and detach to allow you to set the resistance level to suit you.They are made from premium rubber latex, meaning they can withstand strong extension during vigorous workouts.",
+            "price": "15.29",
+            "category": "3",
+            "image_url": "https: //m.media-amazon.com/images/I/412GVSlKshL._AC_SX425_.jpg",
             "image": "physioroom resistance tube heavy pack of 2.jpg",
             "stock": "7"
         }
@@ -258,11 +237,10 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 19,
         "model": "products.product",
         "fields": {
-            "sku": "19",
-            "product_name": "Skipping Rope",
-            "product_description": "Our skipping rope is made with high-quality materials that make it both durable and lightweight, perfect for all fitness levels. Lightweight adult skipping rope makes it easy to achieve maximum fat burn, tone your muscles and reach peak fitness anywhere.",
-            "price": "£4.99",
-            "category": "Workout Equipment",
+            "name": "Skipping Rope",
+            "description": "Our skipping rope is made with high-quality materials that make it both durable and lightweight, perfect for all fitness levels. Lightweight adult skipping rope makes it easy to achieve maximum fat burn, tone your muscles and reach peak fitness anywhere.",
+            "price": "4.99",
+            "category": "2",
             "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQDupdqpyUBPIu8oSyimMUzy-CAQbso-GotWeopqfNgSmkO2EEbrz_WdXp3jLDenLQAbutp5XX5obtnMdUVa7TDnvo_fb-kJwGETwEPOO212ySHMoXMJJHnEg",
             "image": "skipping rope.jpg",
             "stock": "10"
@@ -272,12 +250,11 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 20,
         "model": "products.product",
         "fields": {
-            "sku": "20",
-            "product_name": "Skratch Labs Sport Hydration Mix 1lb Bag",
-            "product_description": "Sport Hydration Drink Mix, created for a simple purpose - to replace the electrolytes lost in sweat and to provide a little bit of energy when working out, without offending your palate or gut.",
-            "price": "£12.99",
-            "category": "Sport Nutrition",
-            "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTKYZUPWZewxmVRm_TzbrrfVAoTxxvWJRh4VKwwI1X6-4xiq3IAVYgzwUsxCU8j9wB9o3kYLLxy0xEqQmXK-cM5wIRkrAMWFQ",
+            "name": "Skratch Labs Sport Hydration Mix 1lb Bag",
+            "description": "Sport Hydration Drink Mix, created for a simple purpose - to replace the electrolytes lost in sweat and to provide a little bit of energy when working out, without offending your palate or gut.",
+            "price": "12.99",
+            "category": "4",
+            "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTKYZUPWZewxmVRm_TzbrfVAoTxxvWJRh4VKwwI1X6-4xiq3IAVYgzwUsxCU8j9wB9o3kYLLxy0xEqQmXK-cM5wIRkrAMWFQ",
             "image": "skratch labs sport hydration mix 1lb bag accessories nutrition.jpg",
             "stock": "14"
         }
@@ -286,11 +263,10 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 21,
         "model": "products.product",
         "fields": {
-            "sku": "21",
-            "product_name": "Weights 5kg",
-            "product_description": "Set comprises 2 x SDH1 Handles & 1 box of 4 x 2.5Kg pro Style discs. Pro-Style Dumbbells are supplied un-assembled and require an 8mm Allen key to assemble (code CNDBAK). A big benefit of the pro-style dumbbells is that if a weight plate or handle does manage to get damaged, then they can be easily replaced and this saves you from having to buy a whole new dumbbell.",
+            "name": "Weights 5kg",
+            "description": "Set comprises 2 x SDH1 Handles & 1 box of 4 x 2.5Kg pro Style discs. Pro-Style Dumbbells are supplied un-assembled and require an 8mm Allen key to assemble (code CNDBAK). A big benefit of the pro-style dumbbells is that if a weight plate or handle does manage to get damaged, then they can be easily replaced and this saves you from having to buy a whole new dumbbell.",
             "price": "32.99",
-            "category": "Workout Equipment",
+            "category": "2",
             "image_url": "https://www.fitness-superstore.co.uk/media/catalog/product/cache/d8461ea17cb152a3c0885cce0c19f1fe/3/6/3645_0.jpg",
             "image": "weights.jpg",
             "stock": "14"
@@ -300,13 +276,13 @@ Fit Anyone: The simple and convenient design makes it a perfect training accesso
         "pk": 22,
         "model": "products.product",
         "fields": {
-            "sku": "22",
-            "product_name": "Womens Ultimate Black Next Active Yoga Pants",
-            "product_description": "These floral printed Sports Sculpting leggings are perfect for lifting, shaping and contouring the body for ultimate confidence in every workout.",
-            "price": "£22.99",
-            "category": "Workout Clothing",
+            "name": "Womens Ultimate Black Next Active Yoga Pants",
+            "description": "These floral printed Sports Sculpting leggings are perfect for lifting, shaping and contouring the body for ultimate confidence in every workout.",
+            "price": "22.99",
+            "category": "3",
             "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS3X3mQPUtyjQQT9kcn1H9wKomCBzSqquc5PslDG2yKa-uawURDvGx1XxyeGEgreWPu6goGsqfCGQdbKBqC6x0_V9cotrzfsWLAcmF_G6BFRvSxNuH6CnBq4w&usqp=CAE",
             "image": "womens ultimate black next active yoga sports sculpting.jpg",
             "stock": "18"
         }
-    },
+    }
+]
