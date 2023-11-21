@@ -13,11 +13,11 @@
       </a>
       <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
         <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-        <a href="" class="dropdown-item">Vitamins & Supplements</a>
-        <a href="" class="dropdown-item">Workout Equipment</a>
-        <a href="" class="dropdown-item">Workout Clothing</a>
-        <a href="" class="dropdown-item">Sports Nutrition</a>
-        <a href="" class="dropdown-item">Deals</a>
+        <a href="{% url 'products' %}?category=vitamins_supplements" class="dropdown-item">Vitamins & Supplements</a>
+        <a href="{% url 'products' %}?category=workout equipment" class="dropdown-item">Workout Equipment</a>
+        <a href="{% url 'products' %}?category=workout clothing" class="dropdown-item">Workout Clothing</a>
+        <a href="{% url 'products' %}?category=sports nutrition" class="dropdown-item">Sports Nutrition</a>
+        <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
       </div>
     </li>
 
