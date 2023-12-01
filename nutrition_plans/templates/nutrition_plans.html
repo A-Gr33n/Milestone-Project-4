@@ -1,0 +1,9 @@
+<!-- nutrition_plan_template.html -->
+{% for plan in nutrition_plans %}
+<h2>{{ plan.goal }}</h2>
+{% for meal in plan.meals.all %}
+<h3>{{ meal.name }}</h3>
+<p>{{ meal.description }}</p>
+<p>Price: ${{ meal.price }}</p>
+{% endfor %}
+{% endfor %}

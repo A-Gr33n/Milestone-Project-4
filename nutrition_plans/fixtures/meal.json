@@ -1,0 +1,13 @@
+[
+    {
+        "pk": 1,
+        "model": "meal.name",
+        "fields": {
+            "name": "Breakfast",
+            "description": "Scrambled eggs with spinach and tomatoes, Whole grain toast, Green tea or black coffee ",
+            "price": "45.99",
+            "category": "Weight Loss Plan",
+            "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatingwell.com%2Fgallery%2F13063%2Fhealthy-breakfast-recipes-in-15-minutes%2F&psig=AOvVaw0YC5ZXyk5AZubuTb2BODZA&ust=1701523064725000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOifxsCp7oIDFQAAAAAdAAAAABAE",
+            "image": "",
+           
+    }
