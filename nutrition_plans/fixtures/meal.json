@@ -1,13 +1,247 @@
-[
+  [
     {
         "pk": 1,
         "model": "meal.name",
         "fields": {
-            "name": "Breakfast",
+            "name": "Fitness Breakfast",
             "description": "Scrambled eggs with spinach and tomatoes, Whole grain toast, Green tea or black coffee ",
             "price": "45.99",
-            "category": "Weight Loss Plan",
+            "category": "1",
             "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatingwell.com%2Fgallery%2F13063%2Fhealthy-breakfast-recipes-in-15-minutes%2F&psig=AOvVaw0YC5ZXyk5AZubuTb2BODZA&ust=1701523064725000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOifxsCp7oIDFQAAAAAdAAAAABAE",
             "image": "",
            
     }
+
+    
+        {
+            "pk": 2,
+            "model": "meal.name",
+            "fields": {
+                "name": "Fitness Snack",
+                "description": " Greek yogurt with berries. ",
+                "price": "45.99",
+                "category": "1",
+                "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatingwell.com%2Fgallery%2F13063%2Fhealthy-breakfast-recipes-in-15-minutes%2F&psig=AOvVaw0YC5ZXyk5AZubuTb2BODZA&ust=1701523064725000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOifxsCp7oIDFQAAAAAdAAAAABAE",
+                "image": "",
+            }
+
+            {
+                "pk": 3,
+                "model": "meal.name",
+                "fields": {
+                    "name": "Fitness Lunch",
+                    "description": "Grilled chicken breast with brown rice and Steamed vegetables (broccoli, carrots). ",
+                    "price": "45.99",
+                    "category": "1",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatingwell.com%2Fgallery%2F13063%2Fhealthy-breakfast-recipes-in-15-minutes%2F&psig=AOvVaw0YC5ZXyk5AZubuTb2BODZA&ust=1701523064725000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOifxsCp7oIDFQAAAAAdAAAAABAE",
+                    "image": "",
+                }
+
+                {
+                    "pk": 4,
+                    "model": "meal.name",
+                    "fields": {
+                        "name": "Fitness Dinner",
+                        "description": "Baked salmon or tofu, sweet potato and mixed sald with olive oil dressing. ",
+                        "price": "45.99",
+                        "category": "1",
+                        "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatingwell.com%2Fgallery%2F13063%2Fhealthy-breakfast-recipes-in-15-minutes%2F&psig=AOvVaw0YC5ZXyk5AZubuTb2BODZA&ust=1701523064725000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOifxsCp7oIDFQAAAAAdAAAAABAE",
+                        "image": "",
+                    }
+                    
+                    {
+                    "pk": 5,
+                    "model": "meal.name",
+                    "fields": {
+                        "name": "Breakfast",
+                        "description": "Oatmeal with protein powder and sliced bananas. With grain toast with peanut butter. ",
+                        "price": "45.99",
+                        "category": "2",
+                        "image_url": "",
+                        "image": "",
+                    }
+                         {
+                           { 
+                            "pk": 6,
+                            "model": "meal.name",
+                            "fields": {
+                                "name": "Snack",
+                                "description": "Protein smoothie with milk, Greek yogurt, and berries.",
+                                "price": "45.99",
+                                "category": "2",
+                                "image_url": "",
+                                "image": "",
+                            }
+                           {
+                            "pk": 7,
+                            "model": "meal.name",
+                            "fields": {
+                                "name": "Lunch",
+                                "description": "Grilled steak or chicken with, Quinoa or sweet potato, Steamed broccoli and asparagus.. ",
+                                "price": "45.99",
+                                "category": "2",
+                                "image_url": "",
+                                "image": "",
+                            }
+                            {
+                                "pk": 8,
+                                "model": "meal.name",
+                                "fields": {
+                                    "name": "Snack",
+                                    "description": "Cottage cheese with pineapple. ",
+                                    "price": "45.99",
+                                    "category": "2",
+                                    "image_url": "",
+                                    "image": "",
+                                }
+                                 {
+                                   "pk": 9,
+                                   "model": "meal.name",
+                                   "fields": {
+                                        "name": "Dinner",
+                                        "description": "Baked cod or turkey, Mixed green salad with avocado and Brown rice or lentils ",
+                                        "price": "45.99",
+                                       "category": "2",
+                                       "image_url": "",
+                                        "image": "",
+                                    }          
+                                                                
+                                    {
+                                        "pk": 10,
+                                        "model": "meal.name",
+                                        "fields": {
+                                            "name": "Breakfast",
+                                            "description": "Whole grain cereal with milk or a smoothie (banana, spinach, protein powder).",
+                                            "price": "45.99",
+                                            "category": "3",
+                                            "image_url": "",
+                                            "image": "",
+                                        }
+                                    {
+                                            "pk": 11,
+                                            "model": "meal.name",
+                                            "fields": {
+                                                "name": "Lunch",
+                                                "description": "Grilled or baked chicken or tofu",
+                                                "price": "45.99",
+                                                "category": "3",
+                                                "image_url": "",
+                                                "image": "",
+                                            }
+                                    {
+                                        "pk": 12,
+                                        "model": "meal.name",
+                                        "fields": {
+                                            "name": "Lunch",
+                                            "description": "Quinoa or whole grain pasta.",
+                                            "price": "45.99",
+                                            "category": "3",
+                                            "image_url": "",
+                                            "image": "",
+                                        }
+                                    {
+                                            "pk": 13,
+                                            "model": "meal.name",
+                                            "fields": {
+                                                "name": "Lunch",
+                                                "description": "Mixed vegetables (bell peppers, zucchini).",
+                                                "price": "45.99",
+                                                "category": "3",
+                                                "image_url": "",
+                                                "image": "",
+                                            }
+                                    {
+                                        "pk": 14,
+                                        "model": "meal.name",
+                                        "fields": {
+                                            "name": "Lunch",
+                                            "description": "Grilled fish or chickpea curry.",
+                                            "price": "45.99",
+                                            "category": "3",
+                                            "image_url": "",
+                                            "image": "",
+                                        }
+
+                                    {
+                                        "pk": 15,
+                                        "model": "meal.name",
+                                        "fields": {
+                                            "name": "Lunch",
+                                            "description": "Brown rice or couscous.",
+                                            "price": "45.99",
+                                            "category": "3",
+                                            "image_url": "",
+                                            "image": "",
+                                        }
+                                    {
+                                        "pk": 16,
+                                        "model": "meal.name",
+                                        "fields": {
+                                            "name": "Lunch",
+                                            "description": "Grilled fish or chickpea curry withBrown rice or couscous and Steamed mixed greens..",
+                                            "price": "45.99",
+                                            "category": "3",
+                                            "image_url": "",
+                                            "image": "",
+                                        }
+                         
+
+                                        {
+                                            "pk": 17,
+                                            "model": "meal.name",
+                                            "fields": {
+                                                "name": "Pre-Workout Snack",
+                                                "description": "Banana with a tablespoon of almond butter.",
+                                                "price": "45.99",
+                                                "category": "4",
+                                                "image_url": "",
+                                                "image": "",
+                                                }
+                                        {
+                                            "pk": 18,
+                                            "model": "meal.name",
+                                            "fields": {
+                                                "name": "During Workout",
+                                                "description": "Sports drink or electrolyte-rich water..",
+                                                "price": "45.99",
+                                                "category": "4",
+                                                "image_url": "",
+                                                "image": "",
+                                            }
+                                        {
+                                            "pk": 19,
+                                            "model": "meal.name",
+                                            "fields": {
+                                                "name": "Post-Workout Meal",
+                                                "description": "Protein smoothie with berries andWhole grain toast with avocado.",
+                                                "price": "45.99",
+                                                "category": "4",
+                                                "image_url": "",
+                                                "image": "",
+                                            }
+
+                                        
+                                        {
+                                            "pk": 20,
+                                            "model": "meal.name",
+                                            "fields": {
+                                                "name": "Lunch",
+                                                "description": "Turkey or chicken wrap with whole grain tortilla. Mixed greens with vinaigrette dressing.",
+                                                "price": "45.99",
+                                                "category": "4",
+                                                "image_url": "",
+                                                "image": "",
+                                            }
+                                        
+                                        {
+                                            "pk": 21,
+                                            "model": "meal.name",
+                                            "fields": {
+                                                "name": "Dinner",
+                                                "description": "Quinoa or brown rice with grilled shrimp or tofu. Steamed broccoli and snap peas.",
+                                                "price": "45.99",
+                                                "category": "4",
+                                                "image_url": "",
+                                                "image": "",
+                                            }
+                                        ]

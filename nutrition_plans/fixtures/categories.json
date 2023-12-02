@@ -1,0 +1,46 @@
+[
+{
+    "pk": 1,
+    "model": "meal.category",
+    "fields": {
+        "name": "weight loss plan",
+        "friendly_name": "Weight Loss Plan"
+    }
+},
+
+{
+    "pk": 2,
+    "model": "meal.category",
+    "fields": {
+        "name": "muscle building plan",
+        "friendly_name": "Muscle Building Plan"
+    }
+},
+
+{
+    "pk": 3,
+    "model": "meal.category",
+    "fields": {
+        "name": "general fitness plan",
+        "friendly_name": "General Fitness Plan"
+    }
+},
+
+{
+    "pk": 4,
+    "model": "meal.category",
+    "fields": {
+        "name": "grilled or baked chicken or tofu",
+        "friendly_name": "Grilled or Baked Chicken or Tofu"
+    }
+},
+
+{
+    "pk": 5,
+    "model": "meal.category",
+    "fields": {
+        "name": "endurance training plan",
+        "friendly_name": "Endurance Training Plan"
+    }
+},
+]
