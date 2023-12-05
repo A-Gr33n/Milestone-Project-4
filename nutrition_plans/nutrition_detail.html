@@ -43,19 +43,7 @@
                 <p class="mt-3">{{ meal.description }}</p>
                 <form class="form" action="{% url 'add_to_bag' meal.id %}" method="POST">
                     {% csrf_token %}
-                    <div class="form-row">
-                        {% with meal.has_sizes as s %}
-                        {% if s %}
-                        <div class="col-12">
-                            <p><strong>Size:</strong></p>
-                            <select class="form-control rounded-0 w-50" name="meal_size" id='id_meal_size'>
-                                <option value="xs">XS</option>
-                                <option value="s">S</option>
-                                <option value="m" selected>M</option>
-                                <option value="l">L</option>
-                                <option value="xl">XL</option>
-                            </select>
-                        </div>
+                    
                         {% endif %}
                         <div class="col-12">
                             <p class="mt-3"><strong>Quantity:</strong></p>
@@ -63,7 +51,7 @@
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <button class="decrement-qty btn btn-black rounded-0"
-                                            data-item_id="{ {meal.id }}" id="decrement-qty_{{ meal.id }}">
+                                            data-item_id="{{ meal.id }}" id="decrement-qty_{{ meal.id }}">
                                             <span class="icon">
                                                 <i class="fas fa-minus"></i>
                                             </span>
@@ -104,5 +92,5 @@
 
 {% block postloadjs %}
 {{ block.super }}
-{% include 'products/includes/quantity_input_script.html' %}
+{% include 'meals/includes/quantity_input_script.html' %}
 {% endblock %}

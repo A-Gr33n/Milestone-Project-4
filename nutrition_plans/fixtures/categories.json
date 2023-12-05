@@ -3,7 +3,7 @@
     "pk": 1,
     "model": "meal.category",
     "fields": {
-        "name": "weight loss plan",
+        "name": "weight_loss_plan",
         "friendly_name": "Weight Loss Plan"
     }
 },
@@ -12,7 +12,7 @@
     "pk": 2,
     "model": "meal.category",
     "fields": {
-        "name": "muscle building plan",
+        "name": "muscle_building_plan",
         "friendly_name": "Muscle Building Plan"
     }
 },
@@ -21,25 +21,18 @@
     "pk": 3,
     "model": "meal.category",
     "fields": {
-        "name": "general fitness plan",
+        "name": "general_fitness_plan",
         "friendly_name": "General Fitness Plan"
     }
 },
+
+
 
 {
     "pk": 4,
     "model": "meal.category",
     "fields": {
-        "name": "grilled or baked chicken or tofu",
-        "friendly_name": "Grilled or Baked Chicken or Tofu"
-    }
-},
-
-{
-    "pk": 5,
-    "model": "meal.category",
-    "fields": {
-        "name": "endurance training plan",
+        "name": "endurance_training_plan",
         "friendly_name": "Endurance Training Plan"
     }
 },

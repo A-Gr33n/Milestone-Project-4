@@ -43,10 +43,10 @@
         Nutrition Plans
       </a>
       <div class="dropdown-menu border-0" aria-labelledby="">
-        <a href="" class="dropdown-item">Weight Loss Plan</a>
-        <a href="" class="dropdown-item">Muscle Building Plan</a>
-        <a href="" class="dropdown-item">General Fitness Plan</a>
-        <a href="" class="dropdown-item">Endurance Training Plan</a>
+        <a href="{% url 'meals' %}?category=weight_loss_plan" class="dropdown-item">Weight Loss Plan</a>
+        <a href="{% url 'meals' %}?category=muscle_building_plan" class="dropdown-item">Muscle Building Plan</a>
+        <a href="{% url 'meals' %}?category=general_fitness_plan" class="dropdown-item">General Fitness Plan</a>
+        <a href="{% url 'meals' %}?category=endurance_training_plan" class="dropdown-item">Endurance Training Plan</a>
       </div>
     </li>
 
