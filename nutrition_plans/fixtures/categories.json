@@ -1,39 +1,39 @@
 [
-{
-    "pk": 1,
-    "model": "meal.category",
-    "fields": {
-        "name": "weight_loss_plan",
-        "friendly_name": "Weight Loss Plan"
+    {
+        "pk": 1,
+        "model": "nutrition_plans.meal",
+        "fields": {
+            "name": "weight_loss_plan",
+            "friendly_name": "Weight Loss Plan"
+        }
+    },
+
+    {
+        "pk": 2,
+        "model": "nutrition_plans.meal",
+        "fields": {
+            "name": "muscle_building_plan",
+            "friendly_name": "Muscle Building Plan"
+        }
+    },
+
+    {
+        "pk": 3,
+        "model": "nutrition_plans.meal",
+        "fields": {
+            "name": "general_fitness_plan",
+            "friendly_name": "General Fitness Plan"
+        }
+    },
+
+
+
+    {
+        "pk": 4,
+        "model": "nutrition_plans.meal",
+        "fields": {
+            "name": "endurance_training_plan",
+            "friendly_name": "Endurance Training Plan"
+        }
     }
-},
-
-{
-    "pk": 2,
-    "model": "meal.category",
-    "fields": {
-        "name": "muscle_building_plan",
-        "friendly_name": "Muscle Building Plan"
-    }
-},
-
-{
-    "pk": 3,
-    "model": "meal.category",
-    "fields": {
-        "name": "general_fitness_plan",
-        "friendly_name": "General Fitness Plan"
-    }
-},
-
-
-
-{
-    "pk": 4,
-    "model": "meal.category",
-    "fields": {
-        "name": "endurance_training_plan",
-        "friendly_name": "Endurance Training Plan"
-    }
-},
 ]
