@@ -1,249 +1,248 @@
-  [
-    {
-          "pk": 1,
-          "model": "nutrition_plans.meal",
-          "fields": {
-              "name": "Fitness Breakfast",
-              "description": "Scrambled eggs with spinach and tomatoes, Whole grain toast, Green tea or black coffee ",
-              "price": "45.99",
-              "category": "1",
-              "image_url": "https: //www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatingwell.com%2Fgallery%2F13063%2Fhealthy-breakfast-recipes-in-15-minutes%2F&psig=AOvVaw0YC5ZXyk5AZubuTb2BODZA&ust=1701523064725000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOifxsCp7oIDFQAAAAAdAAAAABAE",
-              "image": "scrambled-egg-tomato-and-spinach-on-sourdough-recipe.jpg",
-          }
-      },
+    [{
+            "pk": 1,
+            "model": "nutrition_plans.meal",
+            "fields": {
+                "name": "Fitness Breakfast",
+                "description": "Scrambled eggs with spinach and tomatoes, Whole grain toast, Green tea or black coffee ",
+                "price": "45.99",
+                "category": "1",
+                "image_url": "https: //www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatingwell.com%2Fgallery%2F13063%2Fhealthy-breakfast-recipes-in-15-minutes%2F&psig=AOvVaw0YC5ZXyk5AZubuTb2BODZA&ust=1701523064725000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOifxsCp7oIDFQAAAAAdAAAAABAE",
+                "image": "scrambled-egg-tomato-and-spinach-on-sourdough-recipe.jpg",
+            }
+        },
 
 
-      {
-          "pk": 2,
-          "model": "nutrition_plans.meal",
-          "fields": {
-              "name": "Fitness Snack",
-              "description": " Greek yogurt with berries. ",
-              "price": "45.99",
-              "category": "1",
-              "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimplyhomecooked.com%2Fgreek-yogurt-berry-parfait%2F&psig=AOvVaw0Y9Bgq5boxAl_Jdkn9Ifxb&ust=1701704310606000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDV9NjM84IDFQAAAAAdAAAAABAI",
-              "image": "yogurt-parfait-5",
-          }
-      },
+        {
+            "pk": 2,
+            "model": "nutrition_plans.meal",
+            "fields": {
+                "name": "Fitness Snack",
+                "description": " Greek yogurt with berries. ",
+                "price": "45.99",
+                "category": "1",
+                "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimplyhomecooked.com%2Fgreek-yogurt-berry-parfait%2F&psig=AOvVaw0Y9Bgq5boxAl_Jdkn9Ifxb&ust=1701704310606000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDV9NjM84IDFQAAAAAdAAAAABAI",
+                "image": "yogurt-parfait-5",
+            }
+        },
 
-      {
-          "pk": 3,
-          "model": "nutrition_plans.meal",
-          "fields": {
-              "name": "Fitness Lunch",
-              "description": "Grilled chicken breast with brown rice and Steamed vegetables (broccoli, carrots). ",
-              "price": "45.99",
-              "category": "1",
-              "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstudenteats.co.uk%2Frecipes%2Fmains%2Fchicken-and-vegetable-brown-rice-recipe-6611.html&psig=AOvVaw0e8cBCH0Um7KloMTOGwvtN&ust=1701704663378000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjSmIHO84IDFQAAAAAdAAAAABAE",
-              "image": "chicken-teriyaki11-scaled.jpg",
-          }
+        {
+            "pk": 3,
+            "model": "nutrition_plans.meal",
+            "fields": {
+                "name": "Fitness Lunch",
+                "description": "Grilled chicken breast with brown rice and Steamed vegetables (broccoli, carrots). ",
+                "price": "45.99",
+                "category": "1",
+                "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstudenteats.co.uk%2Frecipes%2Fmains%2Fchicken-and-vegetable-brown-rice-recipe-6611.html&psig=AOvVaw0e8cBCH0Um7KloMTOGwvtN&ust=1701704663378000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjSmIHO84IDFQAAAAAdAAAAABAE",
+                "image": "chicken-teriyaki11-scaled.jpg",
+            }
 
-      },
+        },
 
-      {
-          "pk": 4,
-          "model": "nutrition_plans.meal",
-          "fields": {
-              "name": "Fitness Dinner",
-              "description": "Baked salmon or tofu, sweet potato and mixed sald with olive oil dressing. ",
-              "price": "45.99",
-              "category": "1",
-              "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.howsweeteats.com%2F2021%2F10%2Fsweet-potato-kale-salad%2F&psig=AOvVaw2wApT1LhVAYTAOjwK7SOnh&ust=1701705201611000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDH_4HQ84IDFQAAAAAdAAAAABAE",
-              "image": "salmon sweet potato salad.jpg",
-          }
+        {
+            "pk": 4,
+            "model": "nutrition_plans.meal",
+            "fields": {
+                "name": "Fitness Dinner",
+                "description": "Baked salmon or tofu, sweet potato and mixed sald with olive oil dressing. ",
+                "price": "45.99",
+                "category": "1",
+                "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.howsweeteats.com%2F2021%2F10%2Fsweet-potato-kale-salad%2F&psig=AOvVaw2wApT1LhVAYTAOjwK7SOnh&ust=1701705201611000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDH_4HQ84IDFQAAAAAdAAAAABAE",
+                "image": "salmon sweet potato salad.jpg",
+            }
 
-      },
+        },
 
-      {
-          "pk": 5,
-          "model": "nutrition_plans.meal",
-          "fields": {
-              "name": "Breakfast",
-              "description": "Oatmeal with protein powder and sliced bananas. With grain toast with peanut butter. ",
-              "price": "45.99",
-              "category": "2",
-           
-          }
+        {
+            "pk": 5,
+            "model": "nutrition_plans.meal",
+            "fields": {
+                "name": "Breakfast",
+                "description": "Oatmeal with protein powder and sliced bananas. With grain toast with peanut butter. ",
+                "price": "45.99",
+                "category": "2",
 
-      },
-      {
-          {
-              "pk": 6,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Snack",
-                  "description": "Protein smoothie with milk, Greek yogurt, and berries.",
-                  "price": "45.99",
-                  "category": "2",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sweetashoney.co%2Fgreek-yogurt-smoothie%2F&psig=AOvVaw3IJdCSG5BDIUxdXfXIEziV&ust=1701706666983000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjd4rzV84IDFQAAAAAdAAAAABAG",
-                  "image": "Protein-Overnight-Oats-3.2",
-              }
-          },
-          {
-              "pk": 7,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Lunch",
-                  "description": "Grilled steak or chicken with, Quinoa or sweet potato, Steamed broccoli and asparagus.. ",
-                  "price": "45.99",
-                  "category": "2",
+            }
 
-              }
-          },
-          {
-              "pk": 8,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Snack",
-                  "description": "Cottage cheese with pineapple. ",
-                  "price": "45.99",
-                  "category": "2",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgimmedelicious.com%2Fchicken-broccoli-sweet-potatoes-meal-prep%2F&psig=AOvVaw1FPDPPsT0tP4dNZxKDc7w7&ust=1701707757897000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCTgMXZ84IDFQAAAAAdAAAAABAJ",
-                  "image": "healthy-sheet-pan-chicken-sweet-potato-and-broccoli-11",
-              }
-          },
-          {
-              "pk": 9,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Dinner",
-                  "description": "Baked cod or turkey, Mixed green salad with avocado and Brown rice or lentils ",
-                  "price": "45.99",
-                  "category": "2",
+        },
+        {
+            {
+                "pk": 6,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Snack",
+                    "description": "Protein smoothie with milk, Greek yogurt, and berries.",
+                    "price": "45.99",
+                    "category": "2",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sweetashoney.co%2Fgreek-yogurt-smoothie%2F&psig=AOvVaw3IJdCSG5BDIUxdXfXIEziV&ust=1701706666983000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjd4rzV84IDFQAAAAAdAAAAABAG",
+                    "image": "Protein-Overnight-Oats-3.2",
+                }
+            },
+            {
+                "pk": 7,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Lunch",
+                    "description": "Grilled steak or chicken with, Quinoa or sweet potato, Steamed broccoli and asparagus.. ",
+                    "price": "45.99",
+                    "category": "2",
 
-              }
-          },
-          {
-              "pk": 10,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Breakfast",
-                  "description": "Whole grain cereal with milk or a smoothie (banana, spinach, protein powder).",
-                  "price": "45.99",
-                  "category": "3",
+                }
+            },
+            {
+                "pk": 8,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Snack",
+                    "description": "Cottage cheese with pineapple. ",
+                    "price": "45.99",
+                    "category": "2",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgimmedelicious.com%2Fchicken-broccoli-sweet-potatoes-meal-prep%2F&psig=AOvVaw1FPDPPsT0tP4dNZxKDc7w7&ust=1701707757897000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCTgMXZ84IDFQAAAAAdAAAAABAJ",
+                    "image": "healthy-sheet-pan-chicken-sweet-potato-and-broccoli-11",
+                }
+            },
+            {
+                "pk": 9,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Dinner",
+                    "description": "Baked cod or turkey, Mixed green salad with avocado and Brown rice or lentils ",
+                    "price": "45.99",
+                    "category": "2",
 
-              }
-          },
-          {
-              "pk": 11,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Lunch",
-                  "description": "Grilled or baked chicken or tofu",
-                  "price": "45.99",
-                  "category": "3",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.loveandlemons.com%2Fgrilled-tofu%2F&psig=AOvVaw1o8asZVXEKn4jFmIM6DyQJ&ust=1701711572639000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjt0d_n84IDFQAAAAAdAAAAABAE",
-                  "image": "grilled-tofu-1",
-              }
-          },
-          {
-              "pk": 12,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Lunch",
-                  "description": "Quinoa or whole grain pasta.",
-                  "price": "45.99",
-                  "category": "3",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbcgoodfood.com%2Fhowto%2Fguide%2Fhealth-benefits-quinoa&psig=AOvVaw1ZF_R0CJnS7QB2fatdyGOW&ust=1701712170715000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNij7vzp84IDFQAAAAAdAAAAABAq",
-                  "image": "quinoa-in-a-bowl",
-              }
-          },
-          {
-              "pk": 13,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Lunch",
-                  "description": "Mixed vegetables (bell peppers, zucchini).",
-                  "price": "45.99",
-                  "category": "3",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhoorahtohealth.com%2Fmediterranean-roasted-vegetables%2F&psig=AOvVaw1JDDxg60SjJB_Kr2JPLUkP&ust=1701713444320000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiVq93u84IDFQAAAAAdAAAAABAK",
-                  "image": "mediterranean-roasted-vegetables",
-              }
-          },
-          {
-              "pk": 14,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Lunch",
-                  "description": "Grilled fish or chickpea curry.",
-                  "price": "45.99",
-                  "category": "3",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftherealfooddietitians.com%2Fchicken-and-chickpea-curry%2F&psig=AOvVaw0IbBrr4wWqQKV4UnN46xu4&ust=1701714483467000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiG2czy84IDFQAAAAAdAAAAABAE",
-                  "image": "chickhen-and-chickpea-curry.jpg",
-              }
-          },
+                }
+            },
+            {
+                "pk": 10,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Breakfast",
+                    "description": "Whole grain cereal with milk or a smoothie (banana, spinach, protein powder).",
+                    "price": "45.99",
+                    "category": "3",
 
-          {
-              "pk": 15,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Lunch",
-                  "description": "Brown rice or couscous.",
-                  "price": "45.99",
-                  "category": "3",
-                  "image_url": "brown-rice-pilaf.jpg",
-                  "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bobsredmill.com%2Fblog%2Fhealthy-living%2Fis-couscous-healthier-than-rice%2F&psig=AOvVaw08tHhmimivDK_VHBqe1qOM&ust=1701714654031000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCRyp3z84IDFQAAAAAdAAAAABAG",
-              }
-          },
-          {
-              "pk": 16,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Lunch",
-                  "description": "Grilled fish or chickpea curry withBrown rice or couscous and Steamed mixed greens..",
-                  "price": "45.99",
-                  "category": "3",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.fatfreevegan.com%2F2013%2F08%2Fcumin-infused-vegetables-and-chickpeas-over-quinoa.html&psig=AOvVaw3RQgDLERA7TBQ2b2IAOZRf&ust=1701714780605000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCgt9vz84IDFQAAAAAdAAAAABAE",
-                  "image": "cumin-infused-vegetables-chickpeas-quinoa-6802.jpg",
-              }
-          },
+                }
+            },
+            {
+                "pk": 11,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Lunch",
+                    "description": "Grilled or baked chicken or tofu",
+                    "price": "45.99",
+                    "category": "3",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.loveandlemons.com%2Fgrilled-tofu%2F&psig=AOvVaw1o8asZVXEKn4jFmIM6DyQJ&ust=1701711572639000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjt0d_n84IDFQAAAAAdAAAAABAE",
+                    "image": "grilled-tofu-1",
+                }
+            },
+            {
+                "pk": 12,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Lunch",
+                    "description": "Quinoa or whole grain pasta.",
+                    "price": "45.99",
+                    "category": "3",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbcgoodfood.com%2Fhowto%2Fguide%2Fhealth-benefits-quinoa&psig=AOvVaw1ZF_R0CJnS7QB2fatdyGOW&ust=1701712170715000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNij7vzp84IDFQAAAAAdAAAAABAq",
+                    "image": "quinoa-in-a-bowl",
+                }
+            },
+            {
+                "pk": 13,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Lunch",
+                    "description": "Mixed vegetables (bell peppers, zucchini).",
+                    "price": "45.99",
+                    "category": "3",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhoorahtohealth.com%2Fmediterranean-roasted-vegetables%2F&psig=AOvVaw1JDDxg60SjJB_Kr2JPLUkP&ust=1701713444320000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKiVq93u84IDFQAAAAAdAAAAABAK",
+                    "image": "mediterranean-roasted-vegetables",
+                }
+            },
+            {
+                "pk": 14,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Lunch",
+                    "description": "Grilled fish or chickpea curry.",
+                    "price": "45.99",
+                    "category": "3",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftherealfooddietitians.com%2Fchicken-and-chickpea-curry%2F&psig=AOvVaw0IbBrr4wWqQKV4UnN46xu4&ust=1701714483467000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiG2czy84IDFQAAAAAdAAAAABAE",
+                    "image": "chickhen-and-chickpea-curry.jpg",
+                }
+            },
 
-          {
-              "pk": 17,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Pre-Workout Snack",
-                  "description": "Banana with a tablespoon of almond butter.",
-                  "price": "45.99",
-                  "category": "4",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatthismuch.com%2Frecipe%2Fnutrition%2Fbanana-almond-butter%2C717739%2F&psig=AOvVaw1K8OZku_wvtSUaliIMSk34&ust=1701715094201000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDZwu_084IDFQAAAAAdAAAAABAE",
-                  "image": "banana almond butter.jpg",
-              }
-          },
-          {
-              "pk": 18,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "During Workout",
-                  "description": "Sports drink or electrolyte-rich water..",
-                  "price": "45.99",
-                  "category": "4",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mamavation.com%2Fhealth%2Fbest-electrolyte-replacement-drinks-coconut-water.html&psig=AOvVaw0GZSVk5_dd0BboO43ErxPE&ust=1701715323566000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJizv9_184IDFQAAAAAdAAAAABAL",
-                  "image": "electrolyte drink.jpg",
-              }
-          },
-          {
-              "pk": 19,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Post-Workout Meal",
-                  "description": "Protein smoothie with berries andWhole grain toast with avocado.",
-                  "price": "45.99",
-                  "category": "4",
+            {
+                "pk": 15,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Lunch",
+                    "description": "Brown rice or couscous.",
+                    "price": "45.99",
+                    "category": "3",
+                    "image_url": "brown-rice-pilaf.jpg",
+                    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bobsredmill.com%2Fblog%2Fhealthy-living%2Fis-couscous-healthier-than-rice%2F&psig=AOvVaw08tHhmimivDK_VHBqe1qOM&ust=1701714654031000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCRyp3z84IDFQAAAAAdAAAAABAG",
+                }
+            },
+            {
+                "pk": 16,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Lunch",
+                    "description": "Grilled fish or chickpea curry withBrown rice or couscous and Steamed mixed greens..",
+                    "price": "45.99",
+                    "category": "3",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.fatfreevegan.com%2F2013%2F08%2Fcumin-infused-vegetables-and-chickpeas-over-quinoa.html&psig=AOvVaw3RQgDLERA7TBQ2b2IAOZRf&ust=1701714780605000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCgt9vz84IDFQAAAAAdAAAAABAE",
+                    "image": "cumin-infused-vegetables-chickpeas-quinoa-6802.jpg",
+                }
+            },
 
-              }
-          },
+            {
+                "pk": 17,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Pre-Workout Snack",
+                    "description": "Banana with a tablespoon of almond butter.",
+                    "price": "45.99",
+                    "category": "4",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eatthismuch.com%2Frecipe%2Fnutrition%2Fbanana-almond-butter%2C717739%2F&psig=AOvVaw1K8OZku_wvtSUaliIMSk34&ust=1701715094201000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDZwu_084IDFQAAAAAdAAAAABAE",
+                    "image": "banana almond butter.jpg",
+                }
+            },
+            {
+                "pk": 18,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "During Workout",
+                    "description": "Sports drink or electrolyte-rich water..",
+                    "price": "45.99",
+                    "category": "4",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mamavation.com%2Fhealth%2Fbest-electrolyte-replacement-drinks-coconut-water.html&psig=AOvVaw0GZSVk5_dd0BboO43ErxPE&ust=1701715323566000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJizv9_184IDFQAAAAAdAAAAABAL",
+                    "image": "electrolyte drink.jpg",
+                }
+            },
+            {
+                "pk": 19,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Post-Workout Meal",
+                    "description": "Protein smoothie with berries andWhole grain toast with avocado.",
+                    "price": "45.99",
+                    "category": "4",
 
-          {
-              "pk": 20,
-              "model": "nutrition_plans.meal",
-              "fields": {
-                  "name": "Lunch",
-                  "description": "Turkey or chicken wrap with whole grain tortilla. Mixed greens with vinaigrette dressing.",
-                  "price": "45.99",
-                  "category": "4",
-                  "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flittlespicejar.com%2Fcrunchy-chicken-caesar-wraps%2F&psig=AOvVaw3yLXW52Z4eiX1TEhNPZDOO&ust=1701721049663000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjRmYeL9IIDFQAAAAAdAAAAABAT",
-                  "image": "crunchy-caesar-chicken-wrapss-1.jpg",
-              }
-          }
-      ]
+                }
+            },
+
+            {
+                "pk": 20,
+                "model": "nutrition_plans.meal",
+                "fields": {
+                    "name": "Lunch",
+                    "description": "Turkey or chicken wrap with whole grain tortilla. Mixed greens with vinaigrette dressing.",
+                    "price": "45.99",
+                    "category": "4",
+                    "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flittlespicejar.com%2Fcrunchy-chicken-caesar-wraps%2F&psig=AOvVaw3yLXW52Z4eiX1TEhNPZDOO&ust=1701721049663000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjRmYeL9IIDFQAAAAAdAAAAABAT",
+                    "image": "crunchy-caesar-chicken-wrapss-1.jpg",
+                }
+            }
+        ]
