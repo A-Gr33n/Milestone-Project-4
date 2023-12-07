@@ -1,6 +1,7 @@
-    [{
+    [
+        {
             "pk": 1,
-            "model": "nutrition_plans.meal",
+            "model": "meals.nutrition_plans",
             "fields": {
                 "name": "Fitness Breakfast",
                 "description": "Scrambled eggs with spinach and tomatoes, Whole grain toast, Green tea or black coffee ",
@@ -14,7 +15,7 @@
 
         {
             "pk": 2,
-            "model": "nutrition_plans.meal",
+            "model": "meals.nutrition_plans",
             "fields": {
                 "name": "Fitness Snack",
                 "description": " Greek yogurt with berries. ",
@@ -27,7 +28,7 @@
 
         {
             "pk": 3,
-            "model": "nutrition_plans.meal",
+            "model": "meals.nutrition_plans",
             "fields": {
                 "name": "Fitness Lunch",
                 "description": "Grilled chicken breast with brown rice and Steamed vegetables (broccoli, carrots). ",
@@ -41,7 +42,7 @@
 
         {
             "pk": 4,
-            "model": "nutrition_plans.meal",
+            "model": "meals.nutrition_plans",
             "fields": {
                 "name": "Fitness Dinner",
                 "description": "Baked salmon or tofu, sweet potato and mixed sald with olive oil dressing. ",
@@ -55,7 +56,7 @@
 
         {
             "pk": 5,
-            "model": "nutrition_plans.meal",
+            "model": "meals.nutrition_plans",
             "fields": {
                 "name": "Breakfast",
                 "description": "Oatmeal with protein powder and sliced bananas. With grain toast with peanut butter. ",
@@ -68,7 +69,7 @@
         {
             {
                 "pk": 6,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Snack",
                     "description": "Protein smoothie with milk, Greek yogurt, and berries.",
@@ -80,7 +81,7 @@
             },
             {
                 "pk": 7,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Lunch",
                     "description": "Grilled steak or chicken with, Quinoa or sweet potato, Steamed broccoli and asparagus.. ",
@@ -91,7 +92,7 @@
             },
             {
                 "pk": 8,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Snack",
                     "description": "Cottage cheese with pineapple. ",
@@ -103,7 +104,7 @@
             },
             {
                 "pk": 9,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Dinner",
                     "description": "Baked cod or turkey, Mixed green salad with avocado and Brown rice or lentils ",
@@ -114,7 +115,7 @@
             },
             {
                 "pk": 10,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Breakfast",
                     "description": "Whole grain cereal with milk or a smoothie (banana, spinach, protein powder).",
@@ -125,7 +126,7 @@
             },
             {
                 "pk": 11,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Lunch",
                     "description": "Grilled or baked chicken or tofu",
@@ -137,7 +138,7 @@
             },
             {
                 "pk": 12,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Lunch",
                     "description": "Quinoa or whole grain pasta.",
@@ -149,7 +150,7 @@
             },
             {
                 "pk": 13,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Lunch",
                     "description": "Mixed vegetables (bell peppers, zucchini).",
@@ -161,7 +162,7 @@
             },
             {
                 "pk": 14,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Lunch",
                     "description": "Grilled fish or chickpea curry.",
@@ -174,7 +175,7 @@
 
             {
                 "pk": 15,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Lunch",
                     "description": "Brown rice or couscous.",
@@ -186,7 +187,7 @@
             },
             {
                 "pk": 16,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Lunch",
                     "description": "Grilled fish or chickpea curry withBrown rice or couscous and Steamed mixed greens..",
@@ -199,7 +200,7 @@
 
             {
                 "pk": 17,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Pre-Workout Snack",
                     "description": "Banana with a tablespoon of almond butter.",
@@ -211,7 +212,7 @@
             },
             {
                 "pk": 18,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "During Workout",
                     "description": "Sports drink or electrolyte-rich water..",
@@ -223,7 +224,7 @@
             },
             {
                 "pk": 19,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Post-Workout Meal",
                     "description": "Protein smoothie with berries andWhole grain toast with avocado.",
@@ -235,7 +236,7 @@
 
             {
                 "pk": 20,
-                "model": "nutrition_plans.meal",
+                "model": "meals.nutrition_plans",
                 "fields": {
                     "name": "Lunch",
                     "description": "Turkey or chicken wrap with whole grain tortilla. Mixed greens with vinaigrette dressing.",
