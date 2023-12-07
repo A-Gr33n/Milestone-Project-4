@@ -5,7 +5,7 @@ from.models import Meal, Category
 # Register your models here.
 
 class MealAdmin(admin.ModelAdmin):
-    list_display = ('name', 'price', 'image')
+    list_display = ('name', 'image')
 
   
 
