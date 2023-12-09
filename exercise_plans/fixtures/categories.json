@@ -1,0 +1,18 @@
+[
+    {
+        "pk": 1,
+        "model": "exercise.category",
+        "fields": {
+            "name": "exercise",
+            "friendly_name": "Exercise"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "exercise.category",
+        "fields": {
+            "name": "fitness_plan",
+            "friendly_name": "Fitness Plan"
+        }
+    }
+]

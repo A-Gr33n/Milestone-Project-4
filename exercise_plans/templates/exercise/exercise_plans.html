@@ -1,0 +1,9 @@
+<!-- exercise_plan_template.html -->
+{% for exercise in exercise %}
+    <h2>{{ plan.goal }}</h2>
+    {% for exercise in plan.exercises.all %}
+        <h3>{{ exercise.name }}</h3>
+        <p>{{ exercise.duration }}</p>
+        <p>{{ exercise.intensity }}</p>
+    {% endfor %}
+{% endfor %}

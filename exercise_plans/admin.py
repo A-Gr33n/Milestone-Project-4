@@ -13,7 +13,7 @@ class WorkoutDayAdmin(admin.ModelAdmin):
 
 
 class FitnessPlanAdmin(admin.ModelAdmin):
-    list_display = ('goal', 'exercises')
+    list_display = ('goal', 'workout_days')
 
 admin.site.register(Exercise, ExerciseAdmin)
 admin.site.register(WorkoutDay, WorkoutDayAdmin)
