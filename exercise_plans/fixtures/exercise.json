@@ -1,0 +1,96 @@
+{
+    "exercise_plans": [
+        {
+            "goal": "Weight Loss",
+            "workout_days": [
+                {
+                    "day_name": "Monday",
+                    "exercises": [
+                        {
+                            "name": "Brisk Walk/Jog",
+                            "duration": "30 mins",
+                            "intensity": "Moderate"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Wednesday",
+                    "exercises": [
+                        {
+                            "name": "Interval Training",
+                            "duration": "20 mins",
+                            "intensity": "High/Low"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Friday",
+                    "exercises": [
+                        {
+                            "name": "Cycling/Swimming",
+                            "duration": "40 mins",
+                            "intensity": "Moderate"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "goal": "Muscle Building",
+            "workout_days": [
+                {
+                    "day_name": "Monday",
+                    "exercises": [
+                        {
+                            "name": "Barbell Squats",
+                            "sets": 4,
+                            "reps": "8-10",
+                            "intensity": "High"
+                        },
+                        {
+                            "name": "Bench Press",
+                            "sets": 4,
+                            "reps": "8-10",
+                            "intensity": "High"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Wednesday",
+                    "exercises": [
+                        {
+                            "name": "Deadlifts",
+                            "sets": 4,
+                            "reps": "8-10",
+                            "intensity": "High"
+                        },
+                        {
+                            "name": "Overhead Press",
+                            "sets": 3,
+                            "reps": "10-12",
+                            "intensity": "Moderate"
+                        }
+                    ]
+                },
+                {
+                    "day_name": "Friday",
+                    "exercises": [
+                        {
+                            "name": "Dumbbell Lunges",
+                            "sets": 3,
+                            "reps": 12,
+                            "intensity": "Moderate"
+                        },
+                        {
+                            "name": "Pull-ups/Lat Pulldowns",
+                            "sets": 3,
+                            "reps": "10-12",
+                            "intensity": "Moderate"
+                        }
+                    ]
+                }
+            ]
+        },
+      
+    ]
+}

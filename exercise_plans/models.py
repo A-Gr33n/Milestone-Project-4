@@ -7,6 +7,7 @@ class Exercise(models.Model):
     name = models.CharField(max_length=255)
     duration = models.CharField(max_length=20)
     intensity = models.CharField(max_length=20)
+   
 
     def __str__(self):
         return self.name
