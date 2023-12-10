@@ -19,26 +19,18 @@ class Category(models.Model):
 
 
 class Exercise(models.Model):
-    name = models.CharField(max_length=255)
-    duration = models.CharField(max_length=20)
-    intensity = models.CharField(max_length=20)
-   
+    name = models.CharField(max_length=255, null=True, blank=True)
+    duration = models.CharField(max_length=20, null=True, blank=True)
+    intensity = models.CharField(max_length=20, null=True, blank=True)
+    day_name = models.CharField(max_length=20, null=True, blank=True)
+    goal = models.CharField(max_length=50, null=True, blank=True)
+    workout_days = models.CharField(max_length=50, null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
+    sets = models.CharField(max_length=20, null=True, blank=True)
+    reps = models.CharField(max_length=20, null=True, blank=True)
+
 
     def __str__(self):
         return self.name
 
-
-class WorkoutDay(models.Model):
-    day_name = models.CharField(max_length=20)
-    exercises = models.CharField(max_length=20)
-
-    def __str__(self):
-        return self.day_name
-
-
-class FitnessPlan(models.Model):
-    goal = models.CharField(max_length=50)
-    workout_days = models.CharField(max_length=50)
-
-    def __str__(self):
-        return self.goal

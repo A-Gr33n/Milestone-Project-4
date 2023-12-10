@@ -32,20 +32,10 @@
     </li>
 
      <li class="nav-item">
-      <a
-        class="logo-font font-weight-bold nav-link text-black"
-        href="#"
-        id=""
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
+      <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'exercise_plans' %}?category=exercise" >
         Exercise Plans
       </a>
-      <div class="dropdown-menu border-0" aria-labelledby="">
-        <a href="{% url 'exercise_plans' %}?category=exercise" class="dropdown-item">Exercises</a>
-        <a href="{% url 'exercise_plans' %}?category=fitness_plan" class="dropdown-item">Fitness Plan</a>
-      </div>
+     
     </li>
 
 

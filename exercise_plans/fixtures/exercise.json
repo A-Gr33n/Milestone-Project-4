@@ -1,96 +1,122 @@
-{
-    "exercise_plans": [
-        {
-            "goal": "Weight Loss",
-            "workout_days": [
-                {
-                    "day_name": "Monday",
-                    "exercises": [
-                        {
-                            "name": "Brisk Walk/Jog",
-                            "duration": "30 mins",
-                            "intensity": "Moderate"
-                        }
-                    ]
-                },
-                {
-                    "day_name": "Wednesday",
-                    "exercises": [
-                        {
-                            "name": "Interval Training",
-                            "duration": "20 mins",
-                            "intensity": "High/Low"
-                        }
-                    ]
-                },
-                {
-                    "day_name": "Friday",
-                    "exercises": [
-                        {
-                            "name": "Cycling/Swimming",
-                            "duration": "40 mins",
-                            "intensity": "Moderate"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "goal": "Muscle Building",
-            "workout_days": [
-                {
-                    "day_name": "Monday",
-                    "exercises": [
-                        {
-                            "name": "Barbell Squats",
-                            "sets": 4,
-                            "reps": "8-10",
-                            "intensity": "High"
-                        },
-                        {
-                            "name": "Bench Press",
-                            "sets": 4,
-                            "reps": "8-10",
-                            "intensity": "High"
-                        }
-                    ]
-                },
-                {
-                    "day_name": "Wednesday",
-                    "exercises": [
-                        {
-                            "name": "Deadlifts",
-                            "sets": 4,
-                            "reps": "8-10",
-                            "intensity": "High"
-                        },
-                        {
-                            "name": "Overhead Press",
-                            "sets": 3,
-                            "reps": "10-12",
-                            "intensity": "Moderate"
-                        }
-                    ]
-                },
-                {
-                    "day_name": "Friday",
-                    "exercises": [
-                        {
-                            "name": "Dumbbell Lunges",
-                            "sets": 3,
-                            "reps": 12,
-                            "intensity": "Moderate"
-                        },
-                        {
-                            "name": "Pull-ups/Lat Pulldowns",
-                            "sets": 3,
-                            "reps": "10-12",
-                            "intensity": "Moderate"
-                        }
-                    ]
-                }
-            ]
-        },
-      
-    ]
-}
+[
+   {
+    "pk": 1,
+    "model": "exercise.exercise_plans",
+    "fields": {
+        "name": "British Walk/Jog",
+        "duration": "30 mins",
+        "intensity": "Moderate",
+        "goal": "Weight Loss",
+        "day_name": "Monday",
+        "image_url": "https://media.istockphoto.com/id/637856932/vector/jogging-couple-drawing.jpg?s=1024x1024&w=is&k=20&c=cXgJRGE5xlSY_ngbaJ8-YwVzL7K8dlzuqDRIf1HPkng=",
+        "image": "jog sketch.jpg",
+      }
+    },
+
+    {
+    "pk": 2,
+    "model": "exercise.exercise_plans",
+    "fields": {
+        "name": "Interval Training",
+        "duration": "20 mins",
+        "intensity": "High/Low",
+        "goal": "Weight Loss",
+        "day_name": "Wednesday",
+        "image_url": "https://thumbs.dreamstime.com/b/high-intensity-interval-training-push-up-etching-engraving-handmade-style-illustration-athlete-performing-doing-one-hand-57750392.jpg",
+        "image": "high-intensity-interval-training-push-up-etching-engraving-handmade-style.jpg",
+        }
+    },
+
+
+    {
+    "pk": 3,
+    "model": "exercise.exercise_plans",
+    "fields": {
+        "name": "Cycling/Swimming",
+        "duration": "40 mins",
+        "intensity": "Moderate",
+        "goal": "Weight Loss",
+        "day_name": "Friday",
+        "image_url": "https://img.freepik.com/premium-vector/young-athlete-is-swimming-running-cycling_303104-17.jpg",
+        "image": "young-athlete-is-swimming-running-cycling.jpg",
+      }
+    },
+
+    {
+      "pk": 4,
+      "model": "exercise.exercise_plans",
+      "fields": {
+          "name": "Barbell Squats",
+          "intensity": "High",
+          "sets": 4,
+          "reps": "8-10",
+          "goal": "Muscle Building",
+          "day_name": "Monday",
+          "image_url": "https://www.researchgate.net/publication/316914736/figure/fig9/AS:506783883698181@1497838101921/Barbell-back-squat-reproduced-from-61.png",
+          "image": "Barbell-back-squat.jpg",
+      }
+    },
+
+    {
+    "pk": 5,
+    "model": "exercise.exercise_plans",
+    "fields": {
+        "name": "Bench Press",
+        "intensity": "High",
+        "sets": 4,
+        "reps": "8-10",
+        "goal": "Muscle Building",
+        "day_name": "Wednesday",
+        "image_url": "https://10fl.in/wp-content/uploads/2015/07/inline.png",
+        "image": "inline-bench-press.jpg",
+    }
+    },
+
+    {
+    "pk": 6,
+    "model": "exercise.exercise_plans",
+    "fields": {
+        "name": "Overhead Press",
+        "intensity": "Moderate",
+        "sets": 3,
+        "reps": "10-12",
+        "goal": "Muscle Building",
+        "day_name": "Wednesday",
+        "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOverhead_press&psig=AOvVaw1LZfeilSGZvp-symn7fH-R&ust=1702316110033000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCj8_azhYMDFQAAAAAdAAAAABBe",
+        "image": "Overhead Press.jpg",
+    }
+    },
+
+    {
+     "pk": 7,
+     "model": "exercise.exercise_plans",
+     "fields": {
+         "name": "Dumbbell Lunges",
+         "intensity": "Moderate",
+         "sets": 3,
+         "reps": 12,
+         "goal": "Muscle Building",
+         "day_name": "Friday",
+         "image_url": "https://workoutlabs.com/wp-content/uploads/watermarked/Dumbbell_Lunges_F_WorkoutLabs.png",
+         "image": "Dumbbell_Lunges_F_WorkoutLabs.jpg",
+       }
+    },
+
+    
+
+    {
+     "pk": 8,
+     "model": "exercise.exercise_plans",
+     "fields": {
+         "name": "Pull-ups/Lat Pulldowns",
+         "intensity": "Moderate",
+         "sets": 3,
+         "reps": 12,
+         "goal": "Muscle Building",
+         "day_name": "Friday",
+         "image_url": "https://thumbs.dreamstime.com/b/basic-rgb-248990552.jpg",
+         "image": "lat pulldown.jpg",
+     }
+    },
+
+]
