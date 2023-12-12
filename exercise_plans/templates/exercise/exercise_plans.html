@@ -29,14 +29,15 @@
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div class="card h-100 border-0">
                                 {% if exercise.image %}
-                                <a href="{% url 'exercise_plans' exercise.id %}">
+                                <a href="{% url exercise_plans exercise.id %}">
                                     <img class="card-img-top img-fluid" src="{{ exercise.image.url }}" alt="{{ exercise.name }}">
                                 </a>
                                 {% else %}
-                                <a href="{% url 'exercise_plans' exercise.id %}">
+                                <a href="{% url exercise_plans exercise.id %}">
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ exercise.name }}">
                                 </a>
                                 {% endif %}
+                                {% for exercise in day.exercises %}
                                 <div class="card-body pb-0">
                                     <h3>{{ day.day_name }}</h3>
                                     <p class="mb-0">{{ exercise.name }}</p>
@@ -45,6 +46,7 @@
                                     <p class="mb-0"> {{ exercise.goal }}</p>
                                     <p class="mb-0"> {{ exercise.sets}}</p>
                                     <p class="mb-0"> {{ exercise.reps}}</p>
+                                {% endfor %}
                                 </div>
                             </div>
                         </div>
@@ -75,4 +77,82 @@
         </div>
     </div>
 </div>
+<footer class="container-fluid">
+    <div class="col-12 text-center">
+        <h5 class="uppercase general-sub footer-copyright"> &copy;Fitness Galore </h5>
+        <ul class="list-inline social-links">
+            <li class="list-inline-item ">
+                <a target="_blank" href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+            </li>
+            <li class="list-inline-item ">
+                <a target="_blank" href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+            </li>
+            <li class="list-inline-item ">
+                <a target="_blank" href="#">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li class="list-inline-item ">
+                <a target="_blank" href="#">
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                    <span class="sr-only">Pinterest</span>
+                </a>
+            </li>
+            <li class="list-inline-item ">
+                <a target="_blank" href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+            </li>
+            <li class="list-inline-item ">
+                <a target="_blank" href="#">
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</footer>
+
+
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript">
+    $('.btt-link').click(function (e) {
+        window.scrollTo(0, 0);
+    })
+</script>
+
+<script type="text/javascript">
+    $('#sort-selector').change(function () {
+        var selector = $(this);
+        var currentUrl = new URL(window.location);
+
+        var selectedVal = selector.val();
+        if (selectedVal != "reset") {
+            var sort = selectedVal.split("_")[0];
+            var direction = selectedVal.split("_")[1];
+
+            currentUrl.searchParams.set("sort", sort);
+            currentUrl.searchParams.set("direction", direction);
+
+            window.location.replace(currentUrl);
+        } else {
+            currentUrl.searchParams.delete("sort");
+            currentUrl.searchParams.delete("direction");
+
+            window.location.replace(currentUrl);
+        }
+    })
+</script>
 {% endblock %}

@@ -5,5 +5,10 @@ from .models import Exercise
 
 def exercise(request):
     """ A view to see exercise_plans """
+    exercise = Exercise.objects.all()
+
+    context = {
+        'exercise': exercise,
+    }
 
     return render(request, 'exercise/exercise_plans.html')
