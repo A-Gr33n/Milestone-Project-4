@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'checkout',
     'nutrition_plans',
     'exercise_plans',
+ 
     # 'meals',
 
     # Other
