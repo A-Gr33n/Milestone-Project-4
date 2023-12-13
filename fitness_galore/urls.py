@@ -28,4 +28,5 @@ urlpatterns = [
     path('nutrition_plans/', include('nutrition_plans.urls')),
     path('exercise_plans/', include('exercise_plans.urls')),
     path('blog/', include('blog.urls')),
+    path('join/', include('join_community.urls', namespace='join_community')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
