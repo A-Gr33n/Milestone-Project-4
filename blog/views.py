@@ -1,10 +1,8 @@
-from django.shortcuts import render
-
-# Create your views here.
-# blog/views.py
 from django.shortcuts import render, get_object_or_404
 from .models import Post
 
+# Create your views here.
+# blog/views.py
 
 def post_list(request):
     posts = Post.objects.all()

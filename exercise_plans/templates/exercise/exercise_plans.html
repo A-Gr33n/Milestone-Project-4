@@ -25,33 +25,38 @@
         <div class="exercise-container col-10 offset-1">
             <div class="row mt-1 mb-2"></div>
             <div class="row">
-                {% for exercise in exercises %}
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card h-100 border-0">
-                                {% if exercise.image %}
-                                <a href="{% url exercise_plans exercise.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ exercise.image.url }}" alt="{{ exercise.name }}">
-                                </a>
-                                {% else %}
-                                <a href="{% url exercise_plans exercise.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ exercise.name }}">
-                                </a>
-                                {% endif %}
-                                {% for exercise in day.exercises %}
-                                <div class="card-body pb-0">
-                                    <h3>{{ day.day_name }}</h3>
-                                    <p class="mb-0">{{ exercise.name }}</p>
-                                    <p class="mb-0"> {{ exercise.duration }}</p>
-                                    <p class="mb-0"> {{ exercise.intensity }}</p>
-                                    <p class="mb-0"> {{ exercise.goal }}</p>
-                                    <p class="mb-0"> {{ exercise.sets}}</p>
-                                    <p class="mb-0"> {{ exercise.reps}}</p>
-                                {% endfor %}
-                                </div>
-                            </div>
-                        </div>
-                  </div>
+                {% for exercise in exercise %}
+                  <div class="col-md-6 mb-4">
+                      <div class="card">
+                          <div class="card-body">
+                              {% if exercise.image %}
+                              <a href="{% url 'exercise' exercise.id %}">
+                                  <img class="card-img-top img-fluid" src="{{ exercise.image.url }}"
+                                      alt="{{ exercise.name }}">
+                              </a>
+                              {% else %}
+                              <a href="{% url 'exercise' exercise.id %}">
+                                  <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
+                                      alt="{{ exercise.name }}">
+                              </a>
+                              {% endif %}
+                       <div class="card-body pb-0">
+                        <h3 class="card-title">
+                        <a href="{% url 'exercise' %}">{{ day.day_name }}</a></h3>
+                        <p class="card-text">{{ exercise.name }}</p>
+                        <p class="card-text">{{  exercise.duration }}</p>
+                         <p class="card-text">{{  exercise.intensity }}</p>
+                         <p class="card-text">{{  exercise.goal }}</p>
+                         <p class="card-text">{{  exercise.sets }}</p>
+                         <p class="card-text">{{  exercise.reps}}</p>
+                                  </div>
+                              </div>
+                         
+                          </div>
+                      </div>
                 </div>
+                
+               
                 {% if forloop.counter|divisibleby:1 %}
                 <div class="col-12 d-sm-none mb-5">
                     <hr>
