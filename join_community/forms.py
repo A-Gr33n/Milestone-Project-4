@@ -6,7 +6,13 @@ from .models import UserProfile
 class SignUpForm(forms.ModelForm):
     class Meta:
         model = UserProfile
-        fields = ['username', 'email']
+        fields = ['username', 'email', 'password']
+
+        widgets = {
+            'username' : forms.TextInput(attrs={'class':'form-control'}),
+            'email': forms.EmailInput(attrs={'class': 'form-control'}),
+            'password': forms.TextInput(attrs={'class': 'form-control'}),
+        }
 
 
 class SubscriptionForm(forms.ModelForm):
