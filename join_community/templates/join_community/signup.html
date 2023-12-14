@@ -2,22 +2,50 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h2>Sign Up</h2>
+<h2> Join Community </h2>
 <form method="post" action="{% url 'join_community:signup' %}">
     {% csrf_token %}
-     <div class="form-group">
-         <label for="exampleInputName">Name</label>
-         <input type="name" class="form-control" id="exampleInputName">
-     </div>
-      <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-      <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
+  <div class="container">
+      <form action="#">
+          <div class="form-row">
+              <div class="input-data">
+                  <input type="text" required>
+                  <div class="underline"></div>
+                  <label for="">First Name</label>
+              </div>
+              <div class="input-data">
+                  <input type="text" required>
+                  <div class="underline"></div>
+                  <label for="">Last Name</label>
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="input-data">
+                  <input type="text" required>
+                  <div class="underline"></div>
+                  <label for="">Email Address</label>
+              </div>
+              <div class="input-data">
+                  <input type="text" required>
+                  <div class="underline"></div>
+                  <label for="">Website Name</label>
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="input-data textarea">
+                  <textarea rows="8" cols="80" required></textarea>
+                  <br />
+                  <div class="underline"></div>
+                  <label for="">Write your message</label>
+                  <br />
+                  <div class="form-row submit-btn">
+                      <div class="input-data">
+                          <div class="inner"></div>
+                          <input type="submit" value="submit">
+                      </div>
+                  </div>
+      </form>
+  </div>
     {{ form.as_p }}
     <button type="submit">Sign Up</button>
 </form>
