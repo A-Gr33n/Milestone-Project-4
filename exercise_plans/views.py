@@ -5,19 +5,19 @@ from .models import Exercise
 
 def exercise(request):
     """ A view to see exercise_plans """
-    exercise = Exercise.objects.all()
+    exercises = Exercise.objects.all()
 
     context = {
-        'exercise': exercise,
+        'exercises': exercises,
     }
 
-    return render(request, 'exercise/exercise_plans.html')
+    return render(request, 'exercise/exercise_plans.html', context)
 
 
-def exercise_plans_detail(request, exercise_id):
+def exercise_plans_detail(request, pk):
     """ A view to show individual product details """
 
-    exercise = get_object_or_404(Exercise, pk=exercise_id)
+    exercise = get_object_or_404(Exercise, pk=pk)
 
     context = {
         'exercise': exercise,
