@@ -3,7 +3,7 @@
 
 {% block content %}
 <div class="container mt-5">
-    <h2>Subscribe</h2>
+    <h2 class="logo-font">Subscribe</h2>
     <form method="post" action="{% url 'join_community:subscribe' %}" class="mb-3">
         {% csrf_token %}
         {{ form.as_p }}
