@@ -1,0 +1,14 @@
+<!-- contact/templates/contact/contact_form.html -->
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<h2 class="container mt-5">Contact Us</h2>
+<form method="post" action="{% url 'contact_view' %}" class="container mt-5">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="container mt-5">Submit</button>
+</form>
+
+{% endblock %}

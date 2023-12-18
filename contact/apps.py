@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class JoinCommunityConfig(AppConfig):
+class ContactConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'join_community'
+    name = 'contact'
