@@ -3,12 +3,19 @@
 {% load static %}
 
 {% block content %}
-
+<div class="overlay">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2 justify-content-center align-items-center">
 <h2 class="container mt-5">Contact Us</h2>
-<form method="post" action="{% url 'contact_view' %}" class="container mt-5">
+<form method="post" action="{% url 'contact_view' %}"
+    class="container mt-5 ">
     {% csrf_token %}
     {{ form.as_p }}
-    <button type="submit" class="container mt-5">Submit</button>
+    <button type="submit" class="container mt-5 btn btn-secondary btn-sm ">Submit</button>
 </form>
-
+    </div>
+  </div>
+ </div>
+</div>
 {% endblock %}
