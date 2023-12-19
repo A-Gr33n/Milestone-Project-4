@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+   
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -178,7 +178,7 @@ a.category-badge>span.badge:hover {
         top: 0;
         right: 0;
         left: 0;
-        z-index: 1030;
+        z-index: 130;
     }
 
     .header-container {
@@ -197,11 +197,23 @@ a.category-badge>span.badge:hover {
     }
 }
 
+.contact-header{
+    position:relative;
+    top:130px;
+    left:520px;
+}
 
-footer {
+.contact-form{
+    position: relative;
+     top: 170px;
+     left:30px;
+}
+
+/*footer {
     background-color: #525252;
     color: #fafafa;
     margin-top: auto;
+   
 }
 
 
@@ -228,4 +240,5 @@ footer {
 
 #footer-details {
     padding: 20px;
-}
+} 
+ /
