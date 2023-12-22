@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'exercise_plans',
     'blog',
     'contact',
+    'profiles',
     
     # 'meals',
 
