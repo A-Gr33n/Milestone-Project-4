@@ -89,6 +89,7 @@ The two main colours that was used to build this project were shades of black an
 ---
 ## Relationship Diagram (SQL)
 
+![drawSQL-fitness-galore-relationship-diagram-export-2023-12-24](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/3d5b7939-8490-424e-bef3-4099f40ddcea)
 
 
 ---
