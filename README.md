@@ -17,6 +17,7 @@ I want to easily navigate through the website to find information about fitness 
 I want to see an overview of the available workout plans and their respective difficulty levels.
 I want to explore a variety of exercises with clear instructions and demonstration videos.
 I want to learn about the benefits of maintaining a healthy lifestyle and staying active.
+
 As a registered user:
 
 I want to create a personalized profile with my fitness goals, current fitness level, and preferences.
@@ -49,6 +50,9 @@ This project is designed to serve as an all-in-one fitness solution, offering a 
 ## Design
    ### Colour Scheme
 The two main colours that was used to build this project were shades of black and white. 
+#555 (White Color)
+#222 (mixture between black & grey)
+#000 (Black)
 
 ---
 ## Features
@@ -88,6 +92,7 @@ The two main colours that was used to build this project were shades of black an
 
 ---
 ## Relationship Diagram (SQL)
+This a design of the project's relational database schema showing clear relationships between entities.
 
 ![drawSQL-fitness-galore-relationship-diagram-export-2023-12-24](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/3d5b7939-8490-424e-bef3-4099f40ddcea)
 
