@@ -65,7 +65,7 @@ The two main colours that was used to build this project were shades of black an
    * HTML5
    * CSS3
    * JavaScript
-   * Python+Flask
+   * Python
    * PostgreSQL
    * Django
 ---

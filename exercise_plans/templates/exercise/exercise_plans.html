@@ -26,21 +26,21 @@
             <div class="row mt-1 mb-2"></div>
             <div class="row">
                 {% for exercise in exercises %}
-                  <div class="col-md-6 mb-4 col-lg-4 ">
+                  <div class="col-md-6 mb-4 col-lg-4">
                       <div class="card">
-                          <div class="card-body">
+                          <div>
                               {% if exercise.image %}
                               <a href="{% url 'exercise_plans_detail' pk=exercise.pk %}">
                                   <img class="card-img-top img-fluid" src="{{ exercise.image.url }}"
                                       alt="{{ exercise.name }}">
                               </a>
-                              <!-- {% else %}
+                              {% else %}
                                <a href="{% url 'exercise_plans_detail' pk=exercise.pk %}">
                                   <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
                                       alt="{{ exercise.name }}">
-                              </a> -->
+                              </a>
                               {% endif %}
-                       <div class="card-body pb-0">
+                       <div class="pb-0">
                         <h3 class="card-title">
                         <a href="{% url 'exercise' %}">{{ day.day_name }}</a></h3>
                         <p class="card-text">{{ exercise.name }}</p>
@@ -53,7 +53,7 @@
                               </div>
                          
                           </div>
-                      </div>
+                  </div>
                 </div>
                 
                
