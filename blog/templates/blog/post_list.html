@@ -5,11 +5,11 @@
 
 
 <div class="container-fluid page-top-margin">
-    <h2 class="text-align-center">Blog</h2>
+    <h2 class="text-center">Blogs</h2>
     <div class="row">
         {% for post in posts %}
         <div class="col-md-6 mb-4 ">
-            <div class="card">
+            <div class="card post-card border-dark">
                 <div>
                     <h3 class="card-title"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h3>
                     <p class="card-text">{{ post.author }}</p>

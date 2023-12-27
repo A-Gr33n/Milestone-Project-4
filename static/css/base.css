@@ -342,11 +342,6 @@ input[name='q']::placeholder {
     text-align: center;
 }
 
-.blog-container{
- max-width:1200px;
- margin: auto;
-}
-
 .card-body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -354,11 +349,11 @@ input[name='q']::placeholder {
 
 }
 
-.card-body div{
-   padding: 10px;
-   border-radius: 5px;
+.post-card{
+    padding: 70px;
+    border-radius: 90px;
+    border-width: thin;
 }
-
 /*footer {
     background-color: #525252;
     color: #fafafa;
