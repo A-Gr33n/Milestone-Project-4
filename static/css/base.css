@@ -269,6 +269,12 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+.exercise-card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -343,19 +349,9 @@ input[name='q']::placeholder {
     text-align: center;
 }
 
-.card-body{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
 
-}
 
-.post-card{
-    padding: 70px;
-    border-radius: 90px;
-    border-width: thin;
-}
-/*footer {
+footer {
     background-color: #525252;
     color: #fafafa;
     margin-top: auto;

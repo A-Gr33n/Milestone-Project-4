@@ -39,23 +39,13 @@
     </li>
 
 
-    <li class="nav-item dropdown">
+    <li class="nav-item">
       <a
         class="logo-font font-weight-bold nav-link text-black mr-5"
-        href="#"
-        id=""
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
+        href="{% url 'meals' %}">
         Nutrition Plans
       </a>
-      <div class="dropdown-menu border-0" aria-labelledby="">
-        <a href="{% url 'meals' %}?category=weight_loss_plan" class="dropdown-item">Weight Loss Plan</a>
-        <a href="{% url 'meals' %}?category=muscle_building_plan" class="dropdown-item">Muscle Building Plan</a>
-        <a href="{% url 'meals' %}?category=general_fitness_plan" class="dropdown-item">General Fitness Plan</a>
-        <a href="{% url 'meals' %}?category=endurance_training_plan" class="dropdown-item">Endurance Training Plan</a>
-      </div>
+    
     </li>
      <li class="nav-item">
          <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'post_list' %}">Blogs</a>

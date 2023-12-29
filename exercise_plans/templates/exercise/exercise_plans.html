@@ -22,12 +22,11 @@
         </div>
     </div>
 </div>
-        <div class="exercise-container">
-            <div class="row">
+        <div class="container">
+            <div class="flex">
                 {% for exercise in exercises %}
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                    <div class="card">
-                         {% if exercise.image %}
+                    <div class="exercise-card rounded float-start">
+                        {% if exercise.image %}
                             <a href="{% url 'exercise_plans_detail' pk=exercise.pk %}">
                                 <img class="card-img-top img-fluid max-width: 100%; height:100%;
                                 auto:100%;"
@@ -45,17 +44,9 @@
                                 <h3 class="card-title">
                                 <a href="{% url 'exercise' %}">{{ day.day_name }}</a></h3>
                                 <p class="card-text">{{ exercise.name }}</p>
-                                <p class="card-text">{{  exercise.duration }}</p>
-                                <p class="card-text">{{  exercise.intensity }}</p>
-                                <p class="card-text">{{  exercise.goal }}</p>
-                                <p class="card-text">{{  exercise.sets }}</p>
-                                <p class="card-text">{{  exercise.reps}}</p>
-                            </div>
-                        
-                    </div>
-                  </div>
-                  </div>
-                </div>
-            </div>
-    {% endfor %}
+                            </div> 
+                 </div>
+           </div>
+        </div>
+       {% endfor %}
 {% endblock %}
