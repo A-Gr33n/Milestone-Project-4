@@ -6,14 +6,14 @@
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
-        <div class="col"></div>
+        <div class=" col-md-6"></div>
     </div>
 </div>
 {% endblock %}
 
 
 {% block content %}
-<div class="overlay"></div>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
@@ -21,69 +21,41 @@
             <hr class="w-50 mb-1">
         </div>
     </div>
-    <div class="row">
-        <div class="exercise-container ">
-            <div class="row mt-1 mb-2"></div>
+</div>
+        <div class="exercise-container">
             <div class="row">
                 {% for exercise in exercises %}
-                  <div class="col-md-6 mb-4 col-lg-4">
-                      <div class="card">
-                          <div>
-                              {% if exercise.image %}
-                              <a href="{% url 'exercise_plans_detail' pk=exercise.pk %}">
-                                  <img class="card-img-top img-fluid" src="{{ exercise.image.url }}"
-                                      alt="{{ exercise.name }}">
-                              </a>
-                              {% else %}
-                               <a href="{% url 'exercise_plans_detail' pk=exercise.pk %}">
-                                  <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
-                                      alt="{{ exercise.name }}">
-                              </a>
-                              {% endif %}
-                       <div class="pb-0">
-                        <h3 class="card-title">
-                        <a href="{% url 'exercise' %}">{{ day.day_name }}</a></h3>
-                        <p class="card-text">{{ exercise.name }}</p>
-                        <p class="card-text">{{  exercise.duration }}</p>
-                         <p class="card-text">{{  exercise.intensity }}</p>
-                         <p class="card-text">{{  exercise.goal }}</p>
-                         <p class="card-text">{{  exercise.sets }}</p>
-                         <p class="card-text">{{  exercise.reps}}</p>
-                                  </div>
-                              </div>
-                         
-                          </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                         {% if exercise.image %}
+                            <a href="{% url 'exercise_plans_detail' pk=exercise.pk %}">
+                                <img class="card-img-top img-fluid max-width: 100%; height:100%;
+                                auto:100%;"
+                                    src="{{ exercise.image.url }}"
+                                    alt="{{ exercise.name }}">
+                            </a>
+                            {% else %}
+                            <a href="{% url 'exercise_plans_detail' pk=exercise.pk %}">
+                                <img class="card-img-top img-fluid max-width: 100%; height:100%;
+                                auto:100%;" src="{{ MEDIA_URL }}noimage.png"
+                                    alt="{{ exercise.name }}">
+                            </a>
+                            {% endif %}
+                            <div class="pb-0">
+                                <h3 class="card-title">
+                                <a href="{% url 'exercise' %}">{{ day.day_name }}</a></h3>
+                                <p class="card-text">{{ exercise.name }}</p>
+                                <p class="card-text">{{  exercise.duration }}</p>
+                                <p class="card-text">{{  exercise.intensity }}</p>
+                                <p class="card-text">{{  exercise.goal }}</p>
+                                <p class="card-text">{{  exercise.sets }}</p>
+                                <p class="card-text">{{  exercise.reps}}</p>
+                            </div>
+                        
+                    </div>
+                  </div>
                   </div>
                 </div>
-                
-               
-                {% if forloop.counter|divisibleby:1 %}
-                <div class="col-12 d-sm-none mb-5">
-                    <hr>
-                </div>
-                {% endif %}
-                {% if forloop.counter|divisibleby:2 %}
-                <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
-                    <hr>
-                </div>
-                {% endif %}
-                {% if forloop.counter|divisibleby:3 %}
-                <div class="col-12 d-none d-lg-block d-xl-none mb-5">
-                    <hr>
-                </div>
-                {% endif %}
-                {% if forloop.counter|divisibleby:4 %}
-                <div class="col-12 d-none d-xl-block mb-5">
-                    <hr>
-                </div>
-                {% endif %}
-                {% endfor %}
             </div>
-        </div>
-    </div>
-</div>
-
-
-
+    {% endfor %}
 {% endblock %}
-
