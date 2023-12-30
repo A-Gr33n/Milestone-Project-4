@@ -349,6 +349,13 @@ input[name='q']::placeholder {
     text-align: center;
 }
 
+.submit-button{
+    width: 120px;
+    height: 100px;
+    position:relative;
+    left:190px;
+}
+
 
 
 footer {
@@ -383,4 +390,4 @@ footer {
 #footer-details {
     padding: 20px;
 } 
- /
+ 
