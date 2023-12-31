@@ -1,6 +1,14 @@
 <!-- blog/templates/blog/post_detail.html -->
 {% extends 'base.html' %}
 
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class=" col-md-6"></div>
+    </div>
+</div>
+{% endblock %}
+
 {% block content %}
 <div class="container">
   <h2>{{ post.title }}</h2>

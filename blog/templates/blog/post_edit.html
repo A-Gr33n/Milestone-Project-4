@@ -1,0 +1,22 @@
+<!-- blog/templates/blog/post_edit.html -->
+{% extends 'base.html' %}
+
+{% block page_header %}
+
+<div class="container header-container">
+    <div class="row">
+        <div class=" col-md-6"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="text-center">New Post</h1>
+<div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
+<form method="POST" class="post-form">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+</form>
+</div>
+{% endblock %}
