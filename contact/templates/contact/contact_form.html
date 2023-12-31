@@ -17,7 +17,7 @@
 <p class="logo-font text-center">For any queries</p>
 <hr class="w-50 mb-1">
 
-<div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
+<div class="d-flex align-items-center justify-content-center" style="height: 100vh;" class="contact-form">
 <form method="post" action="{% url 'contact_view' %}" >
     {% csrf_token %}
     {{ form.as_p }}
