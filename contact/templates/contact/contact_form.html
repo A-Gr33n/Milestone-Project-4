@@ -15,15 +15,15 @@
 <div class="container-fluid">
 <h2 class="logo-font text-center">Contact Us</h2>
 <p class="logo-font text-center">For any queries</p>
- <hr class="w-50 mb-1">
+<hr class="w-50 mb-1">
 
-<form method="post" action="{% url 'contact_view' %}">
+<div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
+<form method="post" action="{% url 'contact_view' %}" >
     {% csrf_token %}
     {{ form.as_p }}
-    <button type="submit"
-        class="container btn btn-secondary btn-sm submit-button justify-content-center">Submit</button>
+<button type="submit"
+        class="container btn btn-secondary btn-sm submit-button ">Submit</button>
 </form>
-
-    </div>
+   </div>
   </div>
 {% endblock %}
