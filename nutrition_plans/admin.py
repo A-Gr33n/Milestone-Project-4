@@ -1,14 +1,9 @@
 from django.contrib import admin
 from.models import Meal, Category
 
-
 # Register your models here.
-
 class MealAdmin(admin.ModelAdmin):
     list_display = ('name', 'image')
-
-  
-
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ( 'friendly_name', 'name')
