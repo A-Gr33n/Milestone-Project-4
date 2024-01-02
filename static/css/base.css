@@ -27,7 +27,7 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
+.join-now-button {
     background: black;
     color: white;
     min-width: 260px;
@@ -52,9 +52,9 @@ body {
     color: white !important;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
+.join-now-button:hover,
+.join-now-button:active,
+.join-now-button:focus,
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
@@ -269,11 +269,7 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
-.exercise-card{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
+
 
 
 /* fixed top navbar only on medium and up */
@@ -339,48 +335,36 @@ input[name='q']::placeholder {
     }
 }
 
-
-
-.page-top-margin{
-   margin-top: 200px;
+.page-top-margin {
+    margin-top: 200px;
 }
 
 .text-align-center {
     text-align: center;
 }
 
+.exercise-card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
+ h5 {
+     margin: 0;
+ }
+
+.uppercase-subheading {
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
-    margin-top: auto;
-   
+    background-color: #212121;
 }
 
-
-.social-links {
-    padding-bottom: 15px;
+footer p {
+    color: #fff;
+    font-family: sans-serif;
 }
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-
-}
-
-.social-links li a i:hover {
-    background: #e84610;
-}
-
-#footer-details {
-    padding: 20px;
-} 
- 

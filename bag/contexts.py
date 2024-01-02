@@ -20,6 +20,8 @@ def bag_contents(request):
                 'item_id': item_id,
                 'quantity': item_data,
                 'product': product,
+
+            
             })
         else:
             product = get_object_or_404(Product, pk=item_id)
@@ -51,5 +53,5 @@ def bag_contents(request):
         'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
         'grand_total': grand_total,
     }
-
+    
     return context
