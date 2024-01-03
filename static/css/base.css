@@ -268,11 +268,22 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+
+.flex {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
 .exercise-card {
     display: flex;
-    width: 100%;
     justify-content: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    
 }
+
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {

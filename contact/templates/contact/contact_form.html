@@ -12,18 +12,17 @@
 
 {% block content %}
 
-<div class="container-fluid">
-<h2 class="logo-font text-center">Contact Us</h2>
-<p class="logo-font text-center">For any queries</p>
-<hr class="w-50 mb-1">
+<div class="container-fluid ">
+        <h2 class="logo-font text-center mt-3">Contact Us</h2>
+        <p class="logo-font text-center">For any queries</p>
+        <hr class="w-50 mb-1">
 
-<div class="d-flex align-items-center justify-content-center" style="height: 100vh;" class="contact-form">
-<form method="post" action="{% url 'contact_view' %}" >
-    {% csrf_token %}
-    {{ form.as_p }}
-<button type="submit"
-        class="container btn btn-secondary btn-sm submit-button ">Submit</button>
-</form>
-   </div>
-  </div>
+    <div class="d-flex align-items-center justify-content-center" style="height: 100vh;" class="contact-form">
+        <form method="post" action="{% url 'contact_view' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="container btn btn-secondary btn-sm submit-button ">Submit</button>
+        </form>
+    </div>
+</div>
 {% endblock %}
