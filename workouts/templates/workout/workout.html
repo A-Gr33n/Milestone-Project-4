@@ -1,0 +1,49 @@
+<!-- exercise_plan_template.html -->
+
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class=" col-md-6"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <h2 class="logo-font">Workouts</h2>
+            <p>Click on image to check workout</p>
+            <hr class="w-50 mb-1">
+        </div>
+    </div>
+</div>
+<div class="grid-container">
+    <div class="flex">
+        {% for workout in workouts %}
+        <div class="workout-card rounded float-start">
+            {% if workout.image %}
+            <a href="{% url 'workout_detail' pk=workout.pk %}">
+                <img class="card-workout-img-top img-fluid max-width: 100%; height:100%;
+                                auto:100%;" src="{{ workout.image.url }}" alt="{{ workout.name }}">
+            </a>
+            {% else %}
+            <a href="{% url 'workout_detail' pk=workout.pk %}">
+                <img class="card-workout-img-top img-fluid max-width: 100%; height:100%;
+                                auto:100%;" src="{{ MEDIA_URL }}noimage.png" alt="{{ workout.name }}">
+            </a>
+            {% endif %}
+            <div class="pb-0">
+                <h3 class="card-title">
+                    <a href="{% url 'workout' %}">{{ day.day_name }}</a></h3>
+                <p class="card-text">{{ workout.name }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}

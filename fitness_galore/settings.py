@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'nutrition_plans',
-    'exercise_plans',
+    'workouts',
     'blog',
     'contact',
     'profiles',

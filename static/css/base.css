@@ -275,7 +275,7 @@ input[name='q']::placeholder {
     flex-wrap: wrap;
 }
 
-.exercise-card {
+.workout-card {
     display: flex;
     justify-content: center;
     border: 1px solid black;
