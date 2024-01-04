@@ -1,6 +1,6 @@
 {
     "pk": 1,
-    "model": "exercise.exercise_plans",
+    "model": "workout.workout",
     "fields": {
         "name": "British Walk/Jog",
         "duration": "30 mins",
@@ -9,12 +9,12 @@
         "day_name": "Monday",
         "image_url": "https://media.istockphoto.com/id/637856932/vector/jogging-couple-drawing.jpg?s=1024x1024&w=is&k=20&c=cXgJRGE5xlSY_ngbaJ8-YwVzL7K8dlzuqDRIf1HPkng=",
         "image": "jog sketch.jpg",
-        "category": "1",
+        
     }
 },
 {
     "pk": 2,
-    "model": "exercise.exercise_plans",
+    "model": "workout.workout",
     "fields": {
         "name": "Interval Training",
         "duration": "20 mins",
@@ -23,12 +23,12 @@
         "day_name": "Wednesday",
         "image_url": "https://thumbs.dreamstime.com/b/high-intensity-interval-training-push-up-etching-engraving-handmade-style-illustration-athlete-performing-doing-one-hand-57750392.jpg",
         "image": "high-intensity-interval-training-push-up-etching-engraving-handmade-style.jpg",
-        "category": "1",
+        
     }
 },
 {
     "pk": 3,
-    "model": "exercise.exercise_plans",
+    "model": "workout.workout",
     "fields": {
         "name": "Cycling/Swimming",
         "duration": "40 mins",
@@ -37,12 +37,12 @@
         "day_name": "Friday",
         "image_url": "https://img.freepik.com/premium-vector/young-athlete-is-swimming-running-cycling_303104-17.jpg",
         "image": "young-athlete-is-swimming-running-cycling.jpg",
-        "category": "1",
+       
     }
 },
 {
     "pk": 4,
-    "model": "exercise.exercise_plans",
+    "model": "workout.workout",
     "fields": {
         "name": "Barbell Squats",
         "intensity": "High",
@@ -52,27 +52,25 @@
         "day_name": "Monday",
         "image_url": "https://www.researchgate.net/publication/316914736/figure/fig9/AS:506783883698181@1497838101921/Barbell-back-squat-reproduced-from-61.png",
         "image": "Barbell-back-squat.jpg",
-        "category": "1",
+      
     }
 },
 {
     "pk": 5,
-    "model": "exercise.exercise_plans",
+    "model": "workout.workoutexercise.exercise_plans",
     "fields": {
         "name": "Bench Press",
-        "intensity": "High",
-        "sets": 4,
-        "reps": "8-10",
+        "intensity": "High       "reps": "8-10",
         "goal": "Muscle Building",
         "day_name": "Wednesday",
         "image_url": "https://10fl.in/wp-content/uploads/2015/07/inline.png",
         "image": "inline-bench-press.jpg",
-        "category": "1",
+       
     }
 },
 {
     "pk": 6,
-    "model": "exercise.exercise_plans",
+    "model": "workout.workout",
     "fields": {
         "name": "Overhead Press",
         "intensity": "Moderate",
@@ -82,12 +80,12 @@
         "day_name": "Wednesday",
         "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOverhead_press&psig=AOvVaw1LZfeilSGZvp-symn7fH-R&ust=1702316110033000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCj8_azhYMDFQAAAAAdAAAAABBe",
         "image": "Overhead Press.jpg",
-        "category": "1",
+        
     }
 },
 {
     "pk": 7,
-    "model": "exercise.exercise_plans",
+    "model": "workout.workout",
     "fields": {
         "name": "Dumbbell Lunges",
         "intensity": "Moderate",
@@ -97,12 +95,12 @@
         "day_name": "Friday",
         "image_url": "https://workoutlabs.com/wp-content/uploads/watermarked/Dumbbell_Lunges_F_WorkoutLabs.png",
         "image": "Dumbbell_Lunges_F_WorkoutLabs.jpg",
-        "category": "1",
+        
     }
 },
 {
     "pk": 8,
-    "model": "exercise.exercise_plans",
+    "model": "workout.workout",
     "fields": {
         "name": "Pull-ups/Lat Pulldowns",
         "intensity": "Moderate",
@@ -112,6 +110,6 @@
         "day_name": "Friday",
         "image_url": "https://thumbs.dreamstime.com/b/basic-rgb-248990552.jpg",
         "image": "lat pulldown.jpg",
-        "category": "1",
+       
     }
 },
