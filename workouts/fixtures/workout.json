@@ -60,7 +60,8 @@
     "model": "workout.workoutexercise.exercise_plans",
     "fields": {
         "name": "Bench Press",
-        "intensity": "High       "reps": "8-10",
+        "intensity": "High"   ,    
+        "reps": "8-10",
         "goal": "Muscle Building",
         "day_name": "Wednesday",
         "image_url": "https://10fl.in/wp-content/uploads/2015/07/inline.png",
