@@ -29,7 +29,6 @@
                     <thead class="text-black">
                         <tr>
                             <th scope="col">Product Info</th>
-                            <th scope="col">Meal Info</th>
                             <th scope="col"></th>
                             <th scope="col">Price</th>
                             <th scope="col">Qty</th>
@@ -48,15 +47,6 @@
                                 alt="{{ item.product.name }}">
                             {% endif %}
                         </td>
-                         <td class="p-3 w-25">
-                             {% if item.meal.image %}
-                             <img class="img-fluid rounded" src="{{ item.meal.image.url }}"
-                                 alt="{{ item.meal.name }}">
-                             {% else %}
-                             <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png"
-                                 alt="{{ item.meal.name }}">
-                             {% endif %}
-                         </td>
                         <td class="py-3">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                             <p class="my-0"><strong>Size:
@@ -64,7 +54,6 @@
                             </p>
                             <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                         </td>
-                        
                         <td class="py-3">
                             <p class="my-0">${{ item.product.price }}</p>
                         </td>
@@ -123,8 +112,6 @@
                     <tr>
                         <td colspan="5" class="text-right">
                             <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                                <span class="icon">
-                            <a href="{% url 'meals' %}" class="btn btn-outline-black rounded-0 btn-lg">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>

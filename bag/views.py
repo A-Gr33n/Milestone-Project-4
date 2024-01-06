@@ -15,6 +15,7 @@ def view_bag(request):
 
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
+    """ Add a quantity of the specified nutrition plan to the shopping bag """
     meal = get_object_or_404(Meal, pk=item_id)
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
