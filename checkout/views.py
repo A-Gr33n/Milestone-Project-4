@@ -7,6 +7,7 @@ from .forms import OrderForm
 from .models import Order, OrderLineItem
 
 from products.models import Product
+from nutrition_plans.models import Meal
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 from bag.contexts import bag_contents
@@ -61,10 +62,12 @@ def checkout(request):
             for item_id, item_data in bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
+                    meal = Meal.objects.get(id=item_id)
                     if isinstance(item_data, int):
                         order_line_item = OrderLineItem(
                             order=order,
                             product=product,
+                            meal=meal,
                             quantity=item_data,
                         )
                         order_line_item.save()
@@ -73,6 +76,7 @@ def checkout(request):
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,
+                                meal=meal,
                                 quantity=quantity,
                                 product_size=size,
                             )

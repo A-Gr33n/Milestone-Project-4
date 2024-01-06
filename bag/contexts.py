@@ -2,7 +2,7 @@ from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
-
+from nutrition_plans.models import Meal
 
 def bag_contents(request):
 
@@ -17,23 +17,33 @@ def bag_contents(request):
             product = get_object_or_404(Product, pk=item_id)
             total += item_data * product.price
             product_count += item_data
+            meal = get_object_or_404(Meal, pk=item_id)
+            total += item_data * meal.price
+            meal_count += item_data
             bag_items.append({
                 'item_id': item_id,
                 'quantity': item_data,
                 'product': product,
+                'meal': meal,
 
             })
         else:
             product = get_object_or_404(Product, pk=item_id)
+            meal = get_object_or_404(Meal, pk=item_id)
             for size, quantity in item_data['items_by_size'].items():
                 total += quantity * product.price
+                total += quantity * meal.price
+                meal_count += quantity
                 product_count += quantity
                 bag_items.append({
                     'item_id': item_id,
                     'quantity': quantity,
                     'product': product,
                     'size': size,
+                    'meal': meal,
                 })
+    
+    
 
     if total < settings.FREE_DELIVERY_THRESHOLD:
         delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)

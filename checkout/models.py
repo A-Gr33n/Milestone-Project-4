@@ -7,6 +7,7 @@ from django.conf import settings
 from django_countries.fields import CountryField
 
 from products.models import Product
+from nutrition_plans.models import Meal
 from profiles.models import UserProfile
 
 
