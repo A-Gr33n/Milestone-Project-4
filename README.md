@@ -136,14 +136,6 @@ All Python codes were tested using CI Python Linter here are screenshots of the 
 
 ![contact-urls py errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/bd23fa4e-8752-426c-aa2a-f2743590d99d)
 
-![exercise py -apps py errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/cdabc3a7-1c5b-4467-ae39-79891b7ab7ef)
-
-![exercise py- urls py errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/5a12c852-5e1b-4cd8-aa87-795ba9290ada)
-
-![exercise py-models py errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/58eec38c-2fb6-4bf2-9c77-ff36af8237e3)
-
-![exercise py-views py errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/54452f5b-96bd-4868-936d-03d420992b5f)
-
 ![home-apps py errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/8308090b-9e0f-45e8-ac99-cb2e315be7ae)
 
 ![nutrition plans-apps py errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/8e17cae4-cfc3-4040-8125-7b83be135f44)
@@ -175,8 +167,6 @@ These are the screenshots that show resolved errors
 
 ![contatct-models py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/32d324e6-4202-472e-9243-d05a6189557a)
 
-![exercise py -models py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/90f44f98-6655-4d11-a013-9df5096772e6)
-
 ![home-apps py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/9d4d0646-1df1-45a7-87b9-2b6cac77b417)
 
 ![home-urls py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/969f9d6d-7570-49db-a23f-27d374a0496b)
@@ -200,6 +190,14 @@ These are the screenshots that show resolved errors
 ![profiles urls py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/ee605601-2e98-4dbc-8c43-f8bd9104ccd5)
 
 ![profiles views py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/7374f49a-9e87-4dc5-85a5-f5f1eb0d4ec0)
+
+![workout apps py no error](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/63d0f3f9-ef5d-4a95-82dc-9f460a5442cb)
+
+![workout admin py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/58399ea6-c43a-4072-a96f-eb9b4a7c9e94)
+
+![workout views py resolved error](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/e9ab7418-e63a-48ea-84ef-08154295bf4b)
+
+![Workout models py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/1fa83b0f-56e5-4442-9cf8-ca60823b6d0f)
 
 
 
@@ -232,7 +230,7 @@ Lighthouse audit was used test the Perfomance, Best practices, and Assessibility
 
 ![lighthouse performance-contact](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/348e0a71-21be-4645-9ae3-7add740f1f3b)
 
-![lighthouse performance-exercise plans](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/19561e1f-7305-42f3-b918-fc13ca4995fe)
+![lighthouse performance-workouts](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/2808d724-5367-4d82-9b3d-50e2555aba43)
 
 ![lighthouse performance-nutrition plans](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/2e143688-427c-431c-8d4c-a79590ada06c)
 
@@ -248,7 +246,7 @@ Here are screenshots showing the app's responsiveness on how it would be on phon
 #### Phone responsiveness
 ![phone responsiveness blog ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/3d3b4e5b-4921-41cd-89bc-a15911c195fc)
 
-![Phone responsiveness exercise plans ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/d22140ae-dc50-4d1a-8a9c-9905c4a84c2e) 
+![Phone responsiveness-Workouts page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/37c60033-cd87-4e18-9d10-e2cbfd5b0990)
 
 ![Phone responsiveness](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/996b036b-082a-4a2d-ac61-7f60080f4805)
 
@@ -257,6 +255,7 @@ Here are screenshots showing the app's responsiveness on how it would be on phon
 ![phone responsivenss- contact](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/ed2870b3-8cbd-4b66-8fe1-04a8f6e9f5b5)
 
 #### Tablet responsiveness
+![tablet responsiveness - workouts](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/4c5089f5-df1f-4a86-b64a-9eb1b7ff8b15)
 
 ![tablet responsiveness - blog page ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/2ffa103e-1118-4f87-9fd3-f576d192d3d8) 
 
