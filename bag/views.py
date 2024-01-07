@@ -90,6 +90,7 @@ def remove_from_bag(request, item_id):
     """Remove the item from the shopping bag"""
 
     try:
+        meal = get_object_or_404(Meal, pk=item_id)
         product = get_object_or_404(Product, pk=item_id)
         size = None
         if 'product_size' in request.POST:
