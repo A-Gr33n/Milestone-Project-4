@@ -54,21 +54,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                 <div class="card-footer bg-white pt-0 border-0 text-left">
-                                     <div class="row">
-                                         <div class="col">
-                                             <p class="lead mb-0 text-left font-weight-bold">${{ meal.price }}</p>
-                                             {% if meal.rating %}
-                                             <small class="text-muted"><i
-                                                     class="fas fa-star mr-1"></i>{{ meal.rating }} /
-                                                 5</small>
-                                             {% else %}
-                                             <small class="text-muted">No Rating</small>
-                                             {% endif %}
-                                         </div>
-                                     </div>
-                                 </div>
-                            </div>
                         </div>
                         {% if forloop.counter|divisibleby:1 %}
                             <div class="col-12 d-sm-none mb-5">
