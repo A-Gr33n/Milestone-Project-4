@@ -27,7 +27,9 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['8000-a-gr33n-milestone-projec-f8wfajr6e9.us2.codeanyapp.com',
-                 '8000-a-gr33n-milestone-projec-dhq97v5wrq.us2.codeanyapp.com']
+                 '8000-a-gr33n-milestone-projec-dhq97v5wrq.us2.codeanyapp.com',
+                '7000-a-gr33n-milestone-projec-dhq97v5wrq.us2.codeanyapp.com',
+                 '8003-a-gr33n-milestone-projec-dhq97v5wrq.us2.codeanyapp.com']
 
 
 # Application definition
