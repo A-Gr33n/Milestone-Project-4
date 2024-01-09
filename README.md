@@ -280,7 +280,6 @@ Upon their initial visit, new users will encounter a navigation menu bar, provid
 
 ![Home page user stories 2](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/4d94be0f-1a12-4504-b703-e243a8f3da57)
 
-
 I want to see an overview of the available workout plans and their respective difficulty levels.
 
 Within the 'Workouts' app accessible through the navigation bar, users can peruse an array of workout plans. Upon gaining access, a diverse selection of workout plans becomes available for their exploration. 
@@ -290,7 +289,6 @@ Within the 'Workouts' app accessible through the navigation bar, users can perus
 By selecting any particular workout plan, users can access detailed steps guiding them on how to effectively engage in the specified workout.
 
 ![workout details](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/182af320-a3ad-410a-b30a-c8f553a14afd)
-
 
 I want to learn about the benefits of maintaining a healthy lifestyle and staying active.
 
@@ -308,7 +306,6 @@ Following submission, a message will appear, conveying, "Thank you for contactin
 
 ![success page contact- testing user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/2c482e0a-b4ea-47f6-9a1f-de4ee572bf63)
 
-
 As a registered user:
 
 I want to create a personalized profile where I can add my own products then choose to either edit or delete.
@@ -323,7 +320,6 @@ Upon successfully setting up their account, users gain the opportunity to add, e
 
 ![edit , delete data - user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/11a60d5e-8242-4c46-ad6b-88ee0e47df86)
 
-
 I want to browse and select a workout plan that aligns with my fitness goals.
 
 Both registered users and first-time visitors alike can access the 'Workouts' app, where they will discover 
@@ -336,7 +332,6 @@ a variety of workout plans tailored to align with their individual fitness goals
 Here's an example of a workout description:
 
 ![workout details-user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/066e785d-e505-438b-b057-cbd4e6e1f21a)
-
 
 I want to track my daily nutrition intake and receive suggestions for a balanced diet.
 
@@ -357,8 +352,8 @@ This link provides users with the opportunity to seamlessly create and upload th
 ![Add new post-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/22bb213e-6872-43c0-bffe-f49ede2735f6)
 
 Users have the option to compose their own blog. Upon completion, they can click the 'Submit' button, and their blog will be promptly featured on the blog page.
-![Share new post-user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/79766f93-aaee-4c50-bba8-d86c9dd40e26)
 
+![Share new post-user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/79766f93-aaee-4c50-bba8-d86c9dd40e26)
 
 I want to register and join local fitness events and meetups.
 
