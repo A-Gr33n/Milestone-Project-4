@@ -17,6 +17,7 @@ I want to easily navigate through the website to find information about fitness 
 I want to see an overview of the available workout plans and their respective difficulty levels.
 I want to explore a variety of exercises with clear instructions and demonstration videos.
 I want to learn about the benefits of maintaining a healthy lifestyle and staying active.
+I would want to contact the comapny if I have any quries or questions
 
 As a registered user:
 
@@ -139,7 +140,12 @@ All Python codes were tested using CI Python Linter here are screenshots of the 
 
 ![Stripe element js error](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/75cb19ec-64ff-4cdf-a0cc-6c4894ca0704)
 
+![setting py- errors shown](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/f099e4d9-993c-44da-9274-7d8464318636)
+
 These are the screenshots that show resolved errors
+
+![asgi py-no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/f8302fdc-962d-4798-a136-7a6eb9b66cac)
+
 ![checkout-forms py no error](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/f82caf34-d642-47a9-ac84-6b381bcb8b03)
 
 ![checkout-webhook resolved](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/b7d594fb-f8d1-4e28-bc74-dee743205951)
@@ -186,6 +192,7 @@ These are the screenshots that show resolved errors
 
 ![Workout models py no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/1fa83b0f-56e5-4442-9cf8-ca60823b6d0f)
 
+![wsgi py - no errors](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/00d0cc8f-a588-4721-be5d-18ca9d3bd12f)
 
 
 ### JS HINT 
@@ -270,27 +277,60 @@ I want to see an overview of the available workout plans and their respective di
 
 Within the 'Workouts' app accessible through the navigation bar, users can peruse an array of workout plans. Upon gaining access, a diverse selection of workout plans becomes available for their exploration. By selecting any particular workout plan, users can access detailed steps guiding them on how to effectively engage in the specified workout.
 
-
 I want to learn about the benefits of maintaining a healthy lifestyle and staying active.
 
 Users have the opportunity to explore the site's blog to discover the advantages of maintaining a healthy lifestyle. Through insightful author stories, the content serves to inspire users, encouraging them to pursue fitness and well-being.
+
+![blog post-testing user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/eddf1f1b-72e1-457f-850b-833cfc1cee09)
+
+I would want to contact the comapny if I have any quries or questions
+
+To address any inquiries or questions, users can utilize the contact form in the navbar. By providing their name, email, and a message, users can then click the 'Submit' button below. 
+
+![contact form-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/b643bcbf-68d7-452f-94b6-b0924e461cac)
+
+Following submission, a message will appear, conveying, "Thank you for contacting us; we'll be back with you shortly." This notification assures users that the team has received their query and will promptly reach out to them.
+
+![success page contact- testing user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/2c482e0a-b4ea-47f6-9a1f-de4ee572bf63)
+
 
 As a registered user:
 
 I want to create a personalized profile where I can add my own products then choose to either edit or delete.
 
-Users will locate the 'My Account' icon, providing them with the option to register and create their account. Upon successfully setting up their account, users gain the opportunity to add, edit, or delete the products they have posted.
+Users will locate the 'My Account' icon, providing them with the option to register and create their account. 
+
+![my account icon-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/85956195-cd87-415e-9fe9-4bfde538881c)
+
+![succesfully sigined in-user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/0509ec3d-2107-46e2-8485-ab64ea5042cc)
+
+Upon successfully setting up their account, users gain the opportunity to add, edit, or delete the products they have posted.
+
+![edit , delete data - user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/11a60d5e-8242-4c46-ad6b-88ee0e47df86)
+
 
 I want to browse and select a workout plan that aligns with my fitness goals.
 
 Both registered users and first-time visitors alike can access the 'Workouts' app, where they will discover 
 a variety of workout plans tailored to align with their individual fitness goals.
 
+![workouts page- user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/8c7cf27e-8d7f-4b19-8824-9fa5a659b92f)
+
+![workout page scrolled down-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/41efd7b0-0fc2-4312-885c-917a5b693570)
+
+Here's an example of a workout description:
+
+![workout details-user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/066e785d-e505-438b-b057-cbd4e6e1f21a)
+
+
 I want to track my daily nutrition intake and receive suggestions for a balanced diet.
 
 Users can explore nutrition meals and diets by accessing the Nutrition Plans app. Within the app, they will find a 
 diverse range of nutrition plans curated to suit their specific dietary needs.
 
+Here's an example :
+
+![nutrition plan example-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/d1314445-07cf-4f5e-8a4d-898569d0aa21)
 
 As a fitness enthusiast:
 
@@ -299,10 +339,21 @@ I want to create and share my own Blog so I can motivate and inspire others to s
 For users interested in crafting and sharing their own blogs, they can locate the 'Add New Post' link at the top left corner. 
 This link provides users with the opportunity to seamlessly create and upload their own blog posts.
 
+![Add new post-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/22bb213e-6872-43c0-bffe-f49ede2735f6)
+
+Users have the option to compose their own blog. Upon completion, they can click the 'Submit' button, and their blog will be promptly featured on the blog page.
+![Share new post-user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/79766f93-aaee-4c50-bba8-d86c9dd40e26)
+
+
 I want to register and join local fitness events and meetups.
 
-To become part of the community, users can simply click the "Join Now" button located at the bottom of the home page. Upon reaching the registration page, users can sign up, thereby becoming members of the Fitness Galore community. As members, they gain access to local fitness events and meetups, fostering connections within the community. 
+To become part of the community, users can simply click the "Join Now" button located at the bottom of the home page. 
 
+![Join our community-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/8f0fa760-5c3e-4d9d-b18f-fca8df04c45b)
+
+Upon reaching the registration page, users can sign up, thereby becoming members of the Fitness Galore community. As members, they gain access to local fitness events and meetups, fostering connections within the community. 
+
+![siginup form- user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/27997420-a291-42a9-9b48-f1c6c6928906)
 
 
 ---
