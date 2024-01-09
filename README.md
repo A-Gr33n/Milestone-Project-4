@@ -275,6 +275,7 @@ As a visitor to the website:
 I want to easily navigate through the website to find information about fitness programs and resources.
 
 Upon their initial visit, new users will encounter a navigation menu bar, providing them with the option to explore the website, including the main home page. As they scroll down, they will discover a comprehensive 'About Us' section, offering additional information about the company's offerings for those seeking to enhance their health and fitness. Next to the 'About Us' segment, a dedicated review section features comments from other customers sharing their experiences with the site.
+
 ![Home page user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/9713b2d6-8263-4cf5-9e4a-af80f2a9f829)
 
 ![Home page user stories 2](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/4d94be0f-1a12-4504-b703-e243a8f3da57)
