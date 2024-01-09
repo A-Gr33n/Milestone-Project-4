@@ -23,25 +23,12 @@ As a registered user:
 I want to create a personalized profile with my fitness goals, current fitness level, and preferences.
 I want to browse and select a workout plan that aligns with my fitness goals.
 I want to track my daily nutrition intake and receive suggestions for a balanced diet.
-I want to log my daily exercise routines and monitor my progress over time.
-I want to receive notifications and reminders to stay consistent with my fitness routine.
-I want to connect with other users, share my achievements, and participate in fitness challenges.
+
+
 As a fitness enthusiast:
 
-I want to create and share my own workout plans with the community.
-I want to contribute exercise tutorials and tips to the exercise library.
-I want to participate in discussions about fitness trends, nutrition, and overall well-being.
+I want to create and share my own Blog so I can motivate and insipire others to stay fit and health.
 I want to organize or join local fitness events and meetups.
-As a user with specific health conditions:
-
-I want to find workout plans tailored to my specific health needs or restrictions.
-I want to receive guidance on exercises that are safe and beneficial for my condition.
-I want to connect with others who have similar health conditions for support and advice.
-As an administrator or moderator:
-
-I want to manage user accounts, review user-generated content, and ensure a positive community environment.
-I want to update and add new workout plans, exercises, and nutritional information.
-I want to monitor and analyze user engagement and feedback to improve the website.
 
 ### User's purpose
 This project is designed to serve as an all-in-one fitness solution, offering a variety of features to support the user's fitness journey.
@@ -269,22 +256,54 @@ Here are screenshots showing the app's responsiveness on how it would be on phon
 
 
 ### Testing User Expeerience UX
-1.
+As a visitor to the website:
+
+I want to easily navigate through the website to find information about fitness programs and resources.
+
+Upon their initial visit, new users will encounter a navigation menu bar, providing them with the option to explore the website, including the main home page. As they scroll down, they will discover a comprehensive 'About Us' section, offering additional information about the company's offerings for those seeking to enhance their health and fitness. Next to the 'About Us' segment, a dedicated review section features comments from other customers sharing their experiences with the site.
+![Home page user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/9713b2d6-8263-4cf5-9e4a-af80f2a9f829)
+
+![Home page user stories 2](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/4d94be0f-1a12-4504-b703-e243a8f3da57)
 
 
-2. 
+I want to see an overview of the available workout plans and their respective difficulty levels.
+
+Within the 'Workouts' app accessible through the navigation bar, users can peruse an array of workout plans. Upon gaining access, a diverse selection of workout plans becomes available for their exploration. By selecting any particular workout plan, users can access detailed steps guiding them on how to effectively engage in the specified workout.
 
 
+I want to learn about the benefits of maintaining a healthy lifestyle and staying active.
+
+Users have the opportunity to explore the site's blog to discover the advantages of maintaining a healthy lifestyle. Through insightful author stories, the content serves to inspire users, encouraging them to pursue fitness and well-being.
+
+As a registered user:
+
+I want to create a personalized profile where I can add my own products then choose to either edit or delete.
+
+Users will locate the 'My Account' icon, providing them with the option to register and create their account. Upon successfully setting up their account, users gain the opportunity to add, edit, or delete the products they have posted.
+
+I want to browse and select a workout plan that aligns with my fitness goals.
+
+Both registered users and first-time visitors alike can access the 'Workouts' app, where they will discover 
+a variety of workout plans tailored to align with their individual fitness goals.
+
+I want to track my daily nutrition intake and receive suggestions for a balanced diet.
+
+Users can explore nutrition meals and diets by accessing the Nutrition Plans app. Within the app, they will find a 
+diverse range of nutrition plans curated to suit their specific dietary needs.
 
 
+As a fitness enthusiast:
 
-3. 
+I want to create and share my own Blog so I can motivate and inspire others to stay fit and health.
+
+For users interested in crafting and sharing their own blogs, they can locate the 'Add New Post' link at the top left corner. 
+This link provides users with the opportunity to seamlessly create and upload their own blog posts.
+
+I want to register and join local fitness events and meetups.
+
+To become part of the community, users can simply click the "Join Now" button located at the bottom of the home page. Upon reaching the registration page, users can sign up, thereby becoming members of the Fitness Galore community. As members, they gain access to local fitness events and meetups, fostering connections within the community. 
 
 
-
-4.
-
-5. 
 
 ---
 
