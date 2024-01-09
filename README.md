@@ -283,7 +283,14 @@ Upon their initial visit, new users will encounter a navigation menu bar, provid
 
 I want to see an overview of the available workout plans and their respective difficulty levels.
 
-Within the 'Workouts' app accessible through the navigation bar, users can peruse an array of workout plans. Upon gaining access, a diverse selection of workout plans becomes available for their exploration. By selecting any particular workout plan, users can access detailed steps guiding them on how to effectively engage in the specified workout.
+Within the 'Workouts' app accessible through the navigation bar, users can peruse an array of workout plans. Upon gaining access, a diverse selection of workout plans becomes available for their exploration. 
+
+![workouts page- user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/724f2f64-22f1-4718-9a80-995c8d8cfd8e)
+
+By selecting any particular workout plan, users can access detailed steps guiding them on how to effectively engage in the specified workout.
+
+![workout details](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/182af320-a3ad-410a-b30a-c8f553a14afd)
+
 
 I want to learn about the benefits of maintaining a healthy lifestyle and staying active.
 
