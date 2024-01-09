@@ -14,21 +14,28 @@ Fitness Galore,is a go-to platform for a comprehensive fitness experience! Users
 As a visitor to the website:
 
 I want to easily navigate through the website to find information about fitness programs and resources.
+
 I want to see an overview of the available workout plans and their respective difficulty levels.
+
 I want to explore a variety of exercises with clear instructions and demonstration videos.
+
 I want to learn about the benefits of maintaining a healthy lifestyle and staying active.
+
 I would want to contact the comapny if I have any quries or questions
 
 As a registered user:
 
 I want to create a personalized profile with my fitness goals, current fitness level, and preferences.
+
 I want to browse and select a workout plan that aligns with my fitness goals.
+
 I want to track my daily nutrition intake and receive suggestions for a balanced diet.
 
 
 As a fitness enthusiast:
 
 I want to create and share my own Blog so I can motivate and insipire others to stay fit and health.
+
 I want to organize or join local fitness events and meetups.
 
 ### User's purpose
