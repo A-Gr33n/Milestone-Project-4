@@ -146,14 +146,6 @@ else:
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
 
-DATABASES = {
-    'default': dj_database_url.parse('postgres://ayvolmzs:hYhr_cosFOYtWlt7pxmdd6dgp11IsIT7@rogue.db.elephantsql.com/ayvolmzs')
-}
-
-
-# Password validation
-# https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
