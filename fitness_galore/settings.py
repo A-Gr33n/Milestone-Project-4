@@ -37,6 +37,7 @@ ALLOWED_HOSTS = ['8000-a-gr33n-milestone-projec-f8wfajr6e9.us2.codeanyapp.com',
                  '8000-a-gr33n-milestone-projec-dhq97v5wrq.us2.codeanyapp.com',
                 '7000-a-gr33n-milestone-projec-dhq97v5wrq.us2.codeanyapp.com',
                  '8003-a-gr33n-milestone-projec-dhq97v5wrq.us2.codeanyapp.com',
+                 '8000-agr33n-milestoneproject-c5qng752mgs.ws-eu107.gitpod.io',
                  'fitnessgalore.herokuapp.com', 'localhost',
                  'fitnessgalore-318b19bf378f.herokuapp.com']
 
@@ -236,3 +237,6 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
