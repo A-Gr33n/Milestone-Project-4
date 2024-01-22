@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background: url('/media/gym-equipment.jpg') no-repeat center center fixed;
+    background: url('/media/dead-lifting.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(60vh - 54px);
-    color: #eeeeee;
+    height: calc(20vh);
+    color: #f9f9f9;
     font-family: 'Lato';
     min-height: 100vh;
 }
