@@ -366,11 +366,3 @@ input[name='q']::placeholder {
     color: #fff;
 }
 
-footer {
-    background-color: #212121;
-}
-
-footer p {
-    color: #fff;
-    font-family: sans-serif;
-}
