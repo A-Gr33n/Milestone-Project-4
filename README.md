@@ -1,14 +1,12 @@
 # Fitness Galore
 
 
-
 ---
 ## Description
 Fitness Galore,is a go-to platform for a comprehensive fitness experience! Users will be able to use the app to purchase exercise products, view nutrition plans for users to improve their diet, view exercise plans which displays exercise steps for every daily routine, a blog section for users to read insipring stories of authors telling their fitness lifestyle and a contact page for queries. 
 
 ---
 ## User Experience UX
-
 
 ### User Stories
 As a visitor to the website:
@@ -212,8 +210,19 @@ JS Hint was used to test JavaScript codes and came up with these results shown b
 
 
 ### W3C Validation (HTML/CSS) 
-All Html and CSS was tested using w3c validation and it came up with these errors shown below.
+All Html and CSS was tested using w3c validation.
 
+Here are screenshots showing html errors. 
+
+![html-error shown 1 ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/f0830dc7-ba1e-4051-82d9-11670a27850a)
+
+![html-error shown 2 ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/1dd74471-4578-432b-8b0b-bf3fe0b79006)
+
+![html-error shown 3](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/8283eb93-f4c1-4746-a98f-fb6ee50fbcee) 
+
+Here is a screenshot showing that all errors have been cleared but we get a warning message showing a type attibute which not needed.
+This is fine as it is not a major fault so therefore the code remains in the project.
+![html errors solved waring message](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/451a1eb1-6f08-4e0b-be51-5c23863d6a1a)
 
 Here are screenshots of no errors found for both Html and CSS.
 ![style css no errors found](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/d5947779-b7c1-4074-b70e-b018c1d2a45f)
@@ -316,7 +325,12 @@ Users will locate the 'My Account' icon, providing them with the option to regis
 
 ![succesfully sigined in-user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/0509ec3d-2107-46e2-8485-ab64ea5042cc)
 
+Registered users can login when returning to their account.
+
+![sign in- testing user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/ff2f1a3d-836a-4ba4-a02e-4ddeceb13b87)
+
 Upon successfully setting up their account, users gain the opportunity to add, edit, or delete the products they have posted.
+![product management-user stories ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/4b007c8b-8314-4537-8b62-df910d0a2125)
 
 ![edit , delete data - user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/11a60d5e-8242-4c46-ad6b-88ee0e47df86)
 
@@ -363,28 +377,66 @@ To become part of the community, users can simply click the "Join Now" button lo
 
 Upon reaching the registration page, users can sign up, thereby becoming members of the Fitness Galore community. As members, they gain access to local fitness events and meetups, fostering connections within the community. 
 
-![siginup form- user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/27997420-a291-42a9-9b48-f1c6c6928906)
+![siginup form- user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/6eb95924-7fca-48ba-8937-da433be0f486)
 
+---
+## Bugs Discovered
+
+Here are screenshots of bugs that appeared when building this project. 
+
+The sign-out and registration pages were obstructed by the app's header container, necessitating the removal of the fixed-top element.
+
+![signout button bug discovered](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/15c61f51-1ab5-4dcd-b576-80d15460f3da)
+
+![register bug found](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/082b4559-270d-4cd6-9282-bd3948eb7c8e)
 
 ---
 
 ## Deployment 
-
+ To deploy this project you'll need to:
+ 
+  1. Go to Heroku and navigate to the Deploy tab
+  2. In the deployment method section, select "Connect to GitHub" 
+  3. Search for this repo by typing Milestone Project 4 and click Connect
+  4. Click Enable Automatic Deploys 
+  5. Leave manual deploy to main
+  6. Click on the "Open app" then the app will run.
 
 ## DEBUG MODE 
 
 
 ---
 ## Credits
- ### Code
-  
- 
+
+### Project Ado
+
+   The Project Ado walkthrough provided by codeinstitute was used a guide to build this project. 
+
  ### Frameworks 
 
- 
+ * Django
+
+     - Django is python-based web framework that runs on a web server which used to set up and build this project.
+
+ * Bootstrap
+    
+    -  Boostrap free and open-source CSS framework directed at responsive, mobile-first front-end web development.This provided website's layout structure and responisveness.
+
+ ### Stripe
+
+     Stripe was used to orangize and store in-person process payments. This was helpful to test and view payments whether it succeded or failed. 
+  
  ### Media
 
+  * Pexels.com
 
- 
+     - Pexels.com provided free photos to create the carousel for the home page
+  
+  * Amazon.com
+     
+     - Amazon.com provided images to display the products for customers to view.
 
-
+  * Amazon aws s3
+     
+     - Simple Storage Service is a service offered by Amazon Web Services was used to enforce security and store media and staticfiles.
+      
