@@ -62,9 +62,6 @@ The two main colours that was used to build this project were shades of black an
    * PostgreSQL
    * Django
 ---
-## Frameworks
- * Bootstrap
----
 ## Wireframes 
 ![New Wireframe 1](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/fabfe733-8f1f-47cf-a2c9-73fccbc5b387)
 ![New Wireframe 2](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/5d77f066-0a75-4def-8901-38f345d86b71)
@@ -423,7 +420,7 @@ The sign-out and registration pages were obstructed by the app's header containe
 
  ### Stripe
 
-     Stripe was used to orangize and store in-person process payments. This was helpful to test and view payments whether it succeded or failed. 
+    Stripe was used to orangize and store in-person process payments. This was helpful to test and view payments whether it succeded or failed. 
   
  ### Media
 
