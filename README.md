@@ -229,20 +229,19 @@ Here are screenshots of no errors found when testing CSS.
 
 ### Audit Report 
 Lighthouse audit was used test the Perfomance, Best practices, and Assessibility. The websites' overall report shows the perfomance to be around
-45-59
+60-80
 
-![lighthouse performance home page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/f234bce4-7683-4223-9e69-ae5ca839ddd7)
+![lighthouse performance home page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/8b3d798c-f2d8-43d1-9bc7-4daa1d388ca3)
 
-![lighthouse performance-blogs](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/8f96971f-f09b-4e29-bd37-4799579db484)
+![lighthouse performance-blogs](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/d6a61d53-ba55-4b9e-83d1-5c1dc996f4f2)
 
-![lighthouse performance-contact](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/348e0a71-21be-4645-9ae3-7add740f1f3b)
+![lighthouse performance-contact](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/61e697c4-56f8-438c-a487-dc6393faed8c)
 
-![lighthouse performance-workouts](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/2808d724-5367-4d82-9b3d-50e2555aba43)
+![lighthouse performance-nutrition plans](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/1a775ab8-1a7a-4e60-b514-829274bf97f0)
 
-![lighthouse performance-nutrition plans](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/2e143688-427c-431c-8d4c-a79590ada06c)
+![lighthouse performance-workouts](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/12ffc1f7-cd99-4cab-9002-8ea8b5bc20cd)
 
-![lightouse performance-products page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/b2865e76-81fd-4688-806c-e749685474e7)
-
+![lightouse performance-products page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/f72f9f56-1519-46d6-819d-6fed2f8e4e42)
 
 ## Browser Testing
 
