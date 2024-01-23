@@ -7,36 +7,30 @@
     </li>
 
     <li class="nav-item dropdown">
-        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+        <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" data-toggle="dropdown">
            All Products
         </a>
-    <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+    <div class="dropdown-menu border-0">
         <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
         <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
     </div>
     </li>
-
     <li class="nav-item dropdown">
       <a
         class="logo-font font-weight-bold nav-link text-black mr-5"
         href="#"
-        id=""
         data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
       >
         Products
       </a>
-      <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+      <div class="dropdown-menu border-0" >
         <a href="{% url 'products' %}?category=vitamins_supplements" class="dropdown-item">Vitamins & Supplements</a>
-        <a href="{% url 'products' %}?category=workout equipment" class="dropdown-item">Workout Equipment</a>
-        <a href="{% url 'products' %}?category=workout clothing" class="dropdown-item">Workout Clothing</a>
-        <a href="{% url 'products' %}?category=sports nutrition" class="dropdown-item">Sports Nutrition</a>
+        <a href="{% url 'products' %}?category=workout_equipment" class="dropdown-item">Workout Equipment</a>
+        <a href="{% url 'products' %}?category=workout_clothing" class="dropdown-item">Workout Clothing</a>
+        <a href="{% url 'products' %}?category=sports_nutrition" class="dropdown-item">Sports Nutrition</a>
         <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
       </div>
     </li>
-
     <li class="nav-item">
     <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'meals' %}">
         Nutrition Plans
