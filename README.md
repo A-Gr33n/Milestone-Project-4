@@ -420,7 +420,7 @@ The sign-out and registration pages were obstructed by the app's header containe
 
  ### Stripe
 
-    Stripe was used to orangize and store in-person process payments. This was helpful to test and view payments whether it succeded or failed. 
+   Stripe was used to orangize and store in-person process payments. This was helpful to test and view payments whether it succeded or failed. 
   
  ### Media
 
