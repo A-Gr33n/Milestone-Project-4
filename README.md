@@ -224,7 +224,7 @@ Here is a screenshot showing that all errors have been cleared but we get a warn
 This is fine as it is not a major fault so therefore the code remains in the project.
 ![html errors solved waring message](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/451a1eb1-6f08-4e0b-be51-5c23863d6a1a)
 
-Here are screenshots of no errors found for both Html and CSS.
+Here are screenshots of no errors found when testing CSS.
 ![style css no errors found](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/d5947779-b7c1-4074-b70e-b018c1d2a45f)
 
 ![stripe css file no error found ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/fefd6a59-e4ea-4ef7-a04f-43e203877f77)
@@ -247,8 +247,7 @@ Lighthouse audit was used test the Perfomance, Best practices, and Assessibility
 ![lightouse performance-products page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/b2865e76-81fd-4688-806c-e749685474e7)
 
 
-### Browser Testing
-
+## Browser Testing
 
 ### Testing Responsiveness 
 Here are screenshots showing the app's responsiveness on how it would be on phone and tablet devices.
