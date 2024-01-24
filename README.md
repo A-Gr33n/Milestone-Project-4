@@ -20,7 +20,7 @@ I want to explore a variety of exercises with clear instructions and demonstrati
 
 I want to learn about the benefits of maintaining a healthy lifestyle and staying active.
 
-I would want to contact the comapny if I have any quries or questions
+I would want to contact the comapny if I have any quries or questions.
 
 As a registered user:
 
@@ -30,6 +30,7 @@ I want to browse and select a workout plan that aligns with my fitness goals.
 
 I want to track my daily nutrition intake and receive suggestions for a balanced diet.
 
+I want to view and purchase any items of interest and require confirmation of purchase.
 
 As a fitness enthusiast:
 
@@ -44,9 +45,9 @@ This project is designed to serve as an all-in-one fitness solution, offering a 
 ## Design
    ### Colour Scheme
 The two main colours that was used to build this project were shades of black and white. 
-#555 (White Color)
-#222 (mixture between black & grey)
-#000 (Black)
+* #555 (White Color)
+* #222 (mixture between black & grey)
+* #000 (Black)
 
 ---
 ## Features
@@ -231,7 +232,7 @@ Here are screenshots of no errors found when testing CSS.
 Lighthouse audit was used test the Perfomance, Best practices, and Assessibility. The websites' overall report shows the perfomance to be around
 60-80
 
-![lighthouse performance home page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/8b3d798c-f2d8-43d1-9bc7-4daa1d388ca3)
+![lighthouse performance home page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/1a059758-626f-4b2a-a86e-5033408c6832)
 
 ![lighthouse performance-blogs](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/d6a61d53-ba55-4b9e-83d1-5c1dc996f4f2)
 
@@ -361,7 +362,7 @@ Here's an example :
 
 ![nutrition plan example-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/d1314445-07cf-4f5e-8a4d-898569d0aa21)
 
-I want to view and purchase any items of interest and confirmation.
+I want to view and purchase any items of interest and require confirmation of purchase.
 
 Registered users can conveniently explore our product range by either selecting the 'All Products' 
 tab for a comprehensive list or clicking on the 'Products' link to browse categorized selections.
