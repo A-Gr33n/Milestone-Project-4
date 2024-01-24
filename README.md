@@ -86,7 +86,7 @@ The two main colours that was used to build this project were shades of black an
 ## Relationship Diagram (SQL)
 This a design of the project's relational database schema showing clear relationships between entities.
 
-![drawSQL-fitness-galore-relationship-diagram-export-2023-12-24](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/3d5b7939-8490-424e-bef3-4099f40ddcea)
+![Relationship Diagram](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/bc7e4d45-08a6-4736-8bfc-4a701501a065)
 
 ---
 ## Testing 
