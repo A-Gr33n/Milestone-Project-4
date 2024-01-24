@@ -436,9 +436,9 @@ The sign-out and registration pages were obstructed by the app's header containe
 ---
 ## Credits
 
-### Project Ado
+### Project Boutique Ado
 
-   The Project Ado walkthrough provided by codeinstitute was used a guide to build this project. 
+   The Boutique Ado walkthrough provided by codeinstitute was used a guide to build this project. 
 
  ### Frameworks 
 
