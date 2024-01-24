@@ -4,7 +4,7 @@
 
 ---
 ## Description
-Fitness Galore,is a go-to platform for a comprehensive fitness experience! Users will be able to use the app to purchase exercise products, view nutrition plans for users to improve their diet, view exercise plans which displays exercise steps for every daily routine, a blog section for users to read insipring stories of authors telling their fitness lifestyle and a contact page for queries. 
+Fitness Galore is a go-to platform for a comprehensive fitness experience! Users will be able to use the app to purchase exercise products, view nutrition plans for users to improve their diet, view workout plans which displays exercise steps for every daily routine, a blog section for users to read insipring stories of authors telling their fitness lifestyle and a contact page for queries. 
 
 ---
 ## User Experience UX
