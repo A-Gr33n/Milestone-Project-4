@@ -1,5 +1,6 @@
 # Fitness Galore
 
+![Am I Responsive-Fitness Galore](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/a3874574-092b-4845-b205-d750dff9892d)
 
 ---
 ## Description
@@ -38,7 +39,7 @@ I want to organize or join local fitness events and meetups.
 
 ### User's purpose
 This project is designed to serve as an all-in-one fitness solution, offering a variety of features to support the user's fitness journey.
-
+ 
  ---
 ## Design
    ### Colour Scheme
@@ -85,7 +86,6 @@ The two main colours that was used to build this project were shades of black an
 This a design of the project's relational database schema showing clear relationships between entities.
 
 ![drawSQL-fitness-galore-relationship-diagram-export-2023-12-24](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/3d5b7939-8490-424e-bef3-4099f40ddcea)
-
 
 ---
 ## Testing 
@@ -244,6 +244,16 @@ Lighthouse audit was used test the Perfomance, Best practices, and Assessibility
 ![lightouse performance-products page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/f72f9f56-1519-46d6-819d-6fed2f8e4e42)
 
 ## Browser Testing
+Here are screenshots to show that the app runs on more than one web browser. 
+
+### Google Chrome
+![Fitness Galore- Google broswer](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/a19910f3-9254-4858-926c-85b20b03c56a)
+
+### Firefox
+![Firefox browser testing](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/795a247b-3974-4f4a-a666-318bd17ed3e0)
+
+### Brave
+![Brave-brower testing ](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/9059fa43-9d30-4d1a-bc67-03b0b885a822)
 
 ### Testing Responsiveness 
 Here are screenshots showing the app's responsiveness on how it would be on phone and tablet devices.
@@ -351,7 +361,29 @@ Here's an example :
 
 ![nutrition plan example-user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/d1314445-07cf-4f5e-8a4d-898569d0aa21)
 
+I want to view and purchase any items of interest and confirmation.
+
+Registered users can conveniently explore our product range by either selecting the 'All Products' 
+tab for a comprehensive list or clicking on the 'Products' link to browse categorized selections.
+
+Upon selecting an item of interest, users are presented with a detailed view featuring the product's image, description, and a convenient quantity box for customization. Once satisfied with their selection, users can effortlessly click the 'Add to Bag' button.
+
+![product page](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/52891248-63e3-400b-81aa-aaf003d17a67)
+
+
+Proceeding to checkout, users are prompted to provide necessary details and billing information to complete the purchase.
+
+![Checkout form - user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/6dfd5d1a-3b86-4f1d-ba4e-79ba7ad4cd25)
+
+
+After submitting the required information, a pop-up message in the top-right corner confirms that the order has been processed. 
+
+![confirmation message - user stories](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/b749671d-f427-464d-8cae-c6bbb3c704ee)
+
+Additionally, users receive a confirmation message via email containing a link to view their order details."
 As a fitness enthusiast:
+
+![Confirmation email message](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/a934536a-7a9a-4c2a-b85d-5169c34b3994)
 
 I want to create and share my own Blog so I can motivate and inspire others to stay fit and health.
 
