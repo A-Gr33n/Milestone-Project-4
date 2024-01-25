@@ -430,8 +430,11 @@ The sign-out and registration pages were obstructed by the app's header containe
   5. Leave manual deploy to main
   6. Click on the "Open app" then the app will run.
 
-## DEBUG MODE 
+### DEBUG MODE 
+Before deployment Debug mode was turn off by setting it to false to ensure that no errors will appear when opening the app. Here
+is a screenshot to show that Debug mode is turned off. 
 
+![DEBUG set to false](https://github.com/A-Gr33n/Milestone-Project-4/assets/120597058/efc996c3-2869-4d4f-9e80-3cd85700b98e)
 
 ---
 ## Credits
