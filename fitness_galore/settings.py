@@ -38,7 +38,9 @@ ALLOWED_HOSTS = ['8000-a-gr33n-milestone-projec-f8wfajr6e9.us2.codeanyapp.com',
                 '7000-a-gr33n-milestone-projec-dhq97v5wrq.us2.codeanyapp.com',
                  '8000-agr33n-milestoneproject-c5qng752mgs.ws-eu107.gitpod.io',
                  'fitnessgalore.herokuapp.com', 'localhost',
-                 'fitnessgalore-318b19bf378f.herokuapp.com']
+                 'fitnessgalore-318b19bf378f.herokuapp.com',
+                 'fitnessgalore-abc499a4f6ed.herokuapp.com',
+                 ]
 
 
 # Application definition
